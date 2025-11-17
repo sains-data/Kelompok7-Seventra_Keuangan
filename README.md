@@ -70,7 +70,7 @@ Unit Keuangan Itera bertanggung jawab atas pengelolaan seluruh siklus keuangan i
 
 * [*Kebutuhan Bisnis* (Business Requirements)](docs/01-requirements/)
 * [*Dokumen Desain* (Design Documents)](docs/02-design/)
-
+Link Gdocs : https://docs.google.com/document/d/1kc9Az6AgZd3U4pCPtT8yO5pkTkEcp1vaQaw4dYswCLk/edit?usp=sharing
 ---
 
 ## 🗓 Linimasa (Timeline)
