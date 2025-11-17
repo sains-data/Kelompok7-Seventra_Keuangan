@@ -17,7 +17,7 @@ Memahami kebutuhan analitik dan proses bisnis unit keuangan .
 |2\.3|Ketua Jurusan/Kepala Unit Pengguna Anggaran|Membuat keputusan realisasi belanja di unit masing-masing.|
 
 
-1. Analisis Proses Bisnis
+1. **Analisis Proses Bisnis**
 
 1. Analisis Proses Bisnis
 
@@ -90,20 +90,6 @@ Memahami kebutuhan analitik dan proses bisnis unit keuangan .
    |Transaksi|Total per Kategori Belanja/Pendapatan|Setiap entri bukti transaksi|
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## <a name="_ehm196d5ujku"></a>**Step 2: Data Source Identification**
 Tujuan: Mengidentifikasi dan menganalisis seluruh sumber data yang digunakan dalam kegiatan operasional dan pelaporan Unit Keuangan ITERA, guna memastikan data yang masuk ke *data mart* memiliki kualitas tinggi, konsisten, dan relevan untuk kebutuhan analitik.
 
@@ -131,19 +117,6 @@ Tujuan: Mengidentifikasi dan menganalisis seluruh sumber data yang digunakan dal
    |3|Rekapitulasi Tagihan Vendor|Tagihan dari supplier/vendor||Per Minggu|
    |4|Data PNBP|Penerimaan Negara Bukan Pajak||Per Bulan|
    |5|Target dan Realisasi Anggaran|Monitoring anggaran per unit||Per Bulan|
-
-1. **Manual data entry**
-
-   Data yang dimasukkan langsung ke dalam sistem atau *data mart* secara manual.
-
-   |No.|Jenis Data|Deskripsi|Input Oleh|Frekunesi Update|
-   | :- | :- | :- | :- | :- |
-   |1|Bukti Transaksi|Scan/foto kwitansi, nota, invoice||Harian|
-   |2|Jurnal Penyesuaian|Koreksi dan adjustment||Per Semester|
-   |3|Data Survei Kepuasan|Feedback dari unit kerja||Per Semester|
-   |4|Catatan Kas Kecil|Pengeluaran kas kecil||Harian|
-   |5|Memo dan Disposisi|Persetujuan dan otorisasi||Per Peristiwa|
-
 
 1. **Data Source Analysis**
 
@@ -379,15 +352,15 @@ Tujuan: Mengidentifikasi dan menganalisis seluruh sumber data yang digunakan dal
 
 1. **Kualitas data (completeness, accuracy)**
 
-   Kualitas data pada sistem keuangan masih bervariasi karena sumber data berasal dari kombinasi database operasional, file Excel, dan dokumen pendukung yang diunggah manual. Dari sisi **completeness**, beberapa atribut penting seperti tanggal verifikasi, nomor SPTJM, kode unit kerja, dan lampiran dokumen sering belum terisi lengkap ketika transaksi masih berada pada tahap awal proses. Pada data SPP dan SPTJM, kolom seperti *nilai realisasi*, *nama penyedia*, atau *kode kegiatan* kadang kosong karena baru dilengkapi setelah proses pemeriksaan. Untuk data persediaan dan inventaris, nilai aset dan lokasi barang juga tidak selalu terisi secara konsisten akibat perbedaan standar pencatatan antar unit.
+   Kualitas data pada sistem keuangan masih bervariasi karena sumber data berasal dari kombinasi database operasional dan file csv, ataupun dokumen pendukung yang diunggah manual. Dari sisi completeness, beberapa atribut penting seperti tanggal verifikasi, nomor SPTJM, kode unit kerja, dan lampiran dokumen sering belum terisi lengkap ketika transaksi masih berada pada tahap awal proses. Pada data SPP dan SPTJM, kolom seperti *nilai realisasi*, *nama penyedia*, atau *kode kegiatan* kadang kosong karena baru dilengkapi setelah proses pemeriksaan. Untuk data persediaan dan inventaris, nilai aset dan lokasi barang juga tidak selalu terisi secara konsisten akibat perbedaan standar pencatatan antar unit.
 
-   Dari sisi **accuracy**, ditemukan ketidaksesuaian nilai transaksi antara file Excel pendukung dengan data pada sistem ketika proses input dilakukan secara manual. Beberapa dokumen yang diunggah ulang menyebabkan perbedaan antara nomor dokumen dan nilai transaksi. Selain itu, format tanggal yang tidak seragam menyebabkan interpretasi data yang salah dalam beberapa kasus. Pada data PBJ, nama penyedia atau nilai kontrak kadang dituliskan dalam format berbeda, sehingga menimbulkan ketidakakuratan ketika digabungkan ke dalam sistem. Ketidaktepatan ini perlu diperbaiki melalui standardisasi format dan proses validasi data pada tahap ETL.
+   Dari sisi accuracy, ditemukan ketidaksesuaian nilai transaksi antara file Excel pendukung dengan data pada sistem ketika proses input dilakukan secara manual. Beberapa dokumen yang diunggah ulang menyebabkan perbedaan antara nomor dokumen dan nilai transaksi. Selain itu, format tanggal yang tidak seragam menyebabkan interpretasi data yang salah dalam beberapa kasus. Pada data PBJ, nama penyedia atau nilai kontrak kadang dituliskan dalam format berbeda, sehingga menimbulkan ketidakakuratan ketika digabungkan ke dalam sistem. Ketidaktepatan ini perlu diperbaiki melalui standardisasi format dan proses validasi data pada tahap ETL.
 
 1. **Frekuensi update data**
 
    |**Sumber Data**|**Frekuensi Update**|**Waktu Update**|**Metode Update**|**Latency**|
    | :-: | :-: | :-: | :-: | :-: |
-   |SIMKEU - Transaksi|Real-time|Jam kerja (08:00–16:00)|OLTP Insert/Update|< 1 menit|
+   |SIMKEU - Transaksi|Real-time|Jam kerja |OLTP Insert/Update|< 1 menit|
    |Sistem Penggajian|Bulanan|Tanggal 1–5 setiap bulan|Batch Process|1–2 hari|
    |Laporan Bank|Harian|Setiap pagi (09:00)|Manual Download & Upload|1 hari|
    |Data UKT|Per Semester|Awal semester|Batch Import|1–2 minggu|
@@ -424,14 +397,14 @@ Tujuan: Mengidentifikasi dan menganalisis seluruh sumber data yang digunakan dal
 1. **Konsistensi format data**
 1) **Inkonsistensi Format yang Teridentifikasi**
 
-   |**Field**|**Variasi Format**|**Contoh**|**Standard yang Direkomendasikan**|
-   | :-: | :-: | :-: | :-: |
-   |**Tanggal**|5 format berbeda|DD/MM/YYYY, YYYY-MM-DD, DD-MM-YY, YYYYMMDD, DD Month YYYY|YYYY-MM-DD (ISO 8601)|
-   |**Nomor Bukti**|3 format|BKK/2024/001, BKK-001-2024, 001/BKK/2024|[JENIS]/YYYY/[COUNTER]|
-   |**Kode Akun**|Inkonsisten|5211\.01, 5211-01, 521101|[KODE].[SUB] (5211.01)|
-   |**Nominal**|2 format|1000000, 1.000.000|Numeric tanpa separator di DB|
-   |**NIP**|3 format|19800101\.200501.1.001, 198001012005011001, 19800101 200501 1 001|[18\_DIGIT] (198001012005011001)|
-   |**Nama Unit**|Tidak standar|FT, Fak. Teknik, Fakultas Teknik, F.Teknik|Full name (Fakultas Teknik)|
+|**Field**|**Variasi Format**|**Contoh**|**Standard yang Direkomendasikan**|
+| :-: | :-: | :-: | :-: |
+|**Tanggal**|5 format berbeda|DD/MM/YYYY, YYYY-MM-DD, DD-MM-YY, YYYYMMDD, DD Month YYYY|YYYY-MM-DD (ISO 8601)|
+|**Nomor Bukti**|3 format|BKK/2024/001, BKK-001-2024, 001/BKK/2024|[JENIS]/YYYY/[COUNTER]|
+|**Kode Akun**|Inkonsisten|5211\.01, 5211-01, 521101|[KODE].[SUB] (5211.01)|
+|**Nominal**|2 format|1000000, 1.000.000|Numeric tanpa separator di DB|
+|**NIP**|3 format|19800101\.200501.1.001, 198001012005011001, 19800101 200501 1 001|[18\_DIGIT] (198001012005011001)|
+|**Nama Unit**|Tidak standar|FT, Fak. Teknik, Fakultas Teknik, F.Teknik|Full name (Fakultas Teknik)|
 
 1) **Rekomendasi Standardisasi**
 
@@ -457,11 +430,6 @@ Long-term Solutions:
 |Log Verifikasi Dokumen|SQL Server|± 50K log|Real-time|
 |Dokumen Pendukung (Upload)|PDF / Image|± 30K file|Daily|
 |Data Vendor / Penyedia|Excel|± 2K baris|Monthly|
-
-
-
-
-
 
 ## <a name="_h2n3rz1yvhq2"></a>**Step 3: Conceptual Design- ERD** 
 Tujuan: Membuat model konseptual yang merepresentasikan entitas bisnis 
@@ -746,7 +714,7 @@ Aktivitas:
 
 1. **Gambar ERD** 
 
-   ![](Aspose.Words.17821746-4610-4628-a9a2-59f561cf5c49.001.png)
+   ![](Aspose.Words.bc6c7196-caee-4dbf-b5e8-c30a9895abba.001.png)
 ## <a name="_ni6if2mhxosu"></a>**Step 4: Logical Design- Dimensional Model** 
 Tujuan: Mengkonversi model konseptual ke dimensional model untuk data warehouse 
 
@@ -1040,12 +1008,28 @@ Aktivitas:
 
 1. **Desain Star/Snowflake Schema** 
 
-   ![](Aspose.Words.17821746-4610-4628-a9a2-59f561cf5c49.002.png)
+   ![](Aspose.Words.bc6c7196-caee-4dbf-b5e8-c30a9895abba.002.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1. **Penentuan Surrogate Keys** 
-####
 
-|<a name="_fwtd90vvrm3s"></a>**Dimension Table**|**Surrogate Key (Name)**|**Data Type**|**Business Key**|**Starting Value**|**Increment**|**Special Format**|
+|**Dimension Table**|**Surrogate Key (Name)**|**Data Type**|**Business Key**|**Starting Value**|**Increment**|**Special Format**|
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 |Dim\_Waktu|waktu\_sk|INT|tanggal|20200101|1|YYYYMMDD|
 |Dim\_Kode\_Akun|kode\_akun\_sk|INT|kode\_akun|1|1|Sequential|
@@ -1059,9 +1043,7 @@ Aktivitas:
 ####
 ####
 ####
-####
-####
-#### <a name="_r1sm8wgtfx7m"></a><a name="_8exo6cnxfida"></a><a name="_u10889r026cf"></a><a name="_g934i61m87vx"></a><a name="_vusl8adqhbn2"></a><a name="_94t2q5qyggkj"></a>**Dimension TablesSpecial Values (Reserved Keys):**
+#### <a name="_r1sm8wgtfx7m"></a><a name="_g934i61m87vx"></a><a name="_vusl8adqhbn2"></a><a name="_94t2q5qyggkj"></a>**Dimension TablesSpecial Values (Reserved Keys):**
 
 |**Value**|**Meaning**|**Usage**|
 | :-: | :-: | :-: |
@@ -1108,8 +1090,6 @@ Aktivitas:
 - Composite Index: (waktu\_sk, kode\_akun\_sk, unit\_kerja\_sk)
 
 **Update Frequency:** Daily (real-time during working hours)
-
-**Data Retention:** 7 years (regulatory requirement)
 ### <a name="_oejlnbp7ww10"></a>**1.2 FACT\_TRANSAKSI\_PENERIMAAN**
 **Description:** Menyimpan detail setiap transaksi penerimaan/pendapatan institusi.
 
@@ -1136,9 +1116,6 @@ Aktivitas:
 
 **Update Frequency:** Daily (real-time during working hours)
 
-**Data Retention:** 7 years
-
------
 ### <a name="_1w6r8k5cd9qa"></a>**1.3 FACT\_REALISASI\_ANGGARAN**
 **Description:** Snapshot bulanan realisasi anggaran per akun per unit kerja.
 
@@ -1169,8 +1146,6 @@ Aktivitas:
 - Composite Index: (waktu\_sk, unit\_kerja\_sk)
 
 **Update Frequency:** Monthly (end of month)
-
-**Data Retention:** Permanent (historical analysis)
 ### <a name="_2fentqn00qx6"></a>**1.4 FACT\_GAJI\_PEGAWAI**
 **Description:** Snapshot bulanan pembayaran gaji pegawai.
 
@@ -1200,7 +1175,6 @@ Aktivitas:
 
 **Update Frequency:** Monthly (tanggal 1-5 setiap bulan)
 
-**Data Retention:** 7 years
 ### <a name="_illb5hpoxu16"></a>**1.5 FACT\_ARUS\_KAS**
 **Description:** Snapshot harian posisi kas per rekening bank.
 
@@ -1228,7 +1202,6 @@ Aktivitas:
 
 **Update Frequency:** Daily (end of day)
 
-**Data Retention:** 5 years
 ## <a name="_nf297yk0njvc"></a>**2. DIMENSION TABLES**
 ### <a name="_ednsu2xvgx6q"></a>**2.1 DIM\_WAKTU**
 **Description:** Dimensi waktu untuk analisis temporal.
@@ -1261,7 +1234,6 @@ Aktivitas:
 
 **Update Frequency:** Static (pre-loaded)
 
------
 ### <a name="_6aprch6lbgt2"></a>**2.2 DIM\_KODE\_AKUN**
 **Description:** Dimensi kode akun anggaran dan kategori belanja.
 
@@ -1291,11 +1263,8 @@ Aktivitas:
 - Primary Key: kode\_akun\_sk
 - Business Key: (kode\_akun, effective\_date)
 - Index: is\_current
-
-**Update Frequency:** As needed (when account structure changes)
-
------
-### <a name="_xxfxsq9wt8it"></a>**2.3 DIM\_UNIT\_KERJA**
+###
+### <a name="_tpajwstp11yp"></a><a name="_xxfxsq9wt8it"></a>**2.3 DIM\_UNIT\_KERJA**
 **Description:** Dimensi unit kerja/organisasi institusi.
 
 **Type:** Type 2 (Track History)
@@ -1326,8 +1295,6 @@ Aktivitas:
 - Business Key: (kode\_unit, effective\_date)
 - Index: is\_current
 
-**Update Frequency:** As needed (when organizational structure changes)
-
 ### <a name="_qroigl5mfuxk"></a>**2.4 DIM\_SUMBER\_DANA**
 **Description:** Dimensi sumber dana pembiayaan.
 
@@ -1353,8 +1320,6 @@ Aktivitas:
 - Primary Key: sumber\_dana\_sk
 - Unique: kode\_sumber
 - Index: is\_active
-
-**Update Frequency:** Annually or as needed
 
 ### <a name="_gldkgsu4ps7u"></a>**2.5 DIM\_VENDOR**
 **Description:** Dimensi vendor/supplier barang dan jasa.
@@ -1383,8 +1348,6 @@ Aktivitas:
 - Primary Key: vendor\_sk
 - Business Key: kode\_vendor
 - Index: (is\_active, kategori\_vendor)
-
-**Update Frequency:** As needed (when vendor information changes)
 
 ### <a name="_6dnw61ttc0fx"></a>**2.6 DIM\_PEGAWAI**
 **Description:** Dimensi pegawai institusi.
@@ -1416,8 +1379,6 @@ Aktivitas:
 - Business Key: (nip, effective\_date)
 - Index: is\_current
 
-**Update Frequency:** Monthly or as needed (promotions, transfers)
-
 ### <a name="_yy2toqw7gmt6"></a>**2.7 DIM\_MAHASISWA**
 **Description:** Dimensi mahasiswa (untuk UKT dan penerimaan dari mahasiswa).
 
@@ -1447,8 +1408,6 @@ Aktivitas:
 - Unique: nim
 - Index: (status\_mahasiswa, fakultas)
 
-**Update Frequency:** Semester basis and as needed
-
 ### <a name="_w5453h23bv27"></a>**2.8 DIM\_REKENING\_BANK**
 **Description:** Dimensi rekening bank institusi.
 
@@ -1477,48 +1436,59 @@ Aktivitas:
 - Index: is\_active
 
 **Update Frequency:** As needed (when account information changes)
-## <a name="_i9pzf09kaycb"></a>**3. DATA QUALITY RULES**
-### <a name="_afubftwd5hr7"></a>**3.1 Mandatory Fields**
-- All Primary Keys (surrogate keys) must NOT be NULL
-- All Foreign Keys in Fact tables must exist in corresponding Dimension tables
-- All measures in Fact tables must be NOT NULL (use 0 for true zero values)
-### <a name="_27i9e4kufs4h"></a>**3.2 Referential Integrity**
-- All FK references must point to valid dimension records
-- Orphan records (FK without matching dimension) are not allowed
-- Use -1 dimension key for "Unknown" or "Not Applicable" cases
-### <a name="_ygenghuxa42"></a>**3.3 Data Consistency**
-- Dates must be in format YYYY-MM-DD
-- Decimal values use . (dot) as separator
-- Text fields are case-sensitive
-- Boolean values: TRUE/FALSE (not 1/0)
-### <a name="_h0fflykhucyn"></a>**3.4 Business Rules**
-- jumlah\_transaksi, jumlah\_penerimaan must be > 0
-- persentase\_realisasi must be between 0 and 150% (allow over-realization)
-- sisa\_anggaran must be >= 0 (negative indicates over-budget)
-- tanggal\_approval must be >= tanggal\_transaksi
-### <a name="_iw6293tvf0lb"></a>**3.5 SCD Implementation**
-- Type 2 dimensions must have unique (business\_key, effective\_date)
-- Only one record per business\_key should have is\_current = TRUE
-- expiry\_date must be >= effective\_date
-- expiry\_date = NULL indicates current active record
+## <a name="_3eze29aqv1y"></a>3. Aturan Kualitas Data (*Data Quality Rules*)
+### <a name="_1me7pva89w3q"></a>3.1 Bidang Wajib (*Mandatory Fields*)
+- Semua Kunci Utama (*Primary Keys* / *Surrogate Keys*) TIDAK BOLEH NULL.
+- Semua Kunci Asing (*Foreign Keys*) di tabel Fakta harus ADA di tabel Dimensi yang bersangkutan.
+- Semua *measures* (nilai terukur) di tabel Fakta TIDAK BOLEH NULL (gunakan nilai 0 untuk nilai nol yang sebenarnya).
+  ### <a name="_x71wduel6mxj"></a>3.2 Integritas Referensial (*Referential Integrity*)
+- Semua referensi Kunci Asing (FK) harus menunjuk ke *record* Dimensi yang valid.
+- *Record* yatim (*Orphan records*, yaitu FK tanpa Dimensi yang cocok) tidak diizinkan.
+- Gunakan kunci dimensi -1 untuk kasus "Tidak Diketahui" (*Unknown*) atau "Tidak Berlaku" (*Not Applicable*).
+  ### <a name="_n2mcg6slr1gw"></a>3.3 Konsistensi Data (*Data Consistency*)
+- Format Tanggal harus dalam format YYYY-MM-DD.
+- Nilai Desimal menggunakan tanda titik (.) sebagai pemisah desimal.
+- *Field* Teks bersifat peka huruf besar/kecil (*case-sensitive*).
+- Nilai Boolean: TRUE/FALSE (bukan 1/0).
+  ### <a name="_4m7ofbpa3c2k"></a>3.4 Aturan Bisnis (*Business Rules*)
+- jumlah\_transaksi, jumlah\_penerimaan harus lebih besar dari 0 ($> 0$).
+- persentase\_realisasi harus berada di antara 0% dan 150% (memungkinkan *over-realization*).
+- sisa\_anggaran harus lebih besar dari atau sama dengan 0 (nilai negatif menunjukkan *over-budget*).
+- tanggal\_approval harus lebih besar dari atau sama dengan tanggal\_transaksi.
+  ### <a name="_ajml939jkgkr"></a>3.5 Implementasi SCD (*SCD Implementation*)
+- Dimensi Tipe 2 (*Type 2 dimensions*) harus memiliki kombinasi unik antara (*business\_key*, *effective\_date*).
+- Hanya boleh ada satu *record* per *business\_key* yang memiliki is\_current = TRUE.
+- expiry\_date harus lebih besar dari atau sama dengan effective\_date.
+- expiry\_date = NULL menunjukkan *record* aktif/saat ini.
 
 ## <a name="_6u7czqfys7k0"></a>**4. NAMING CONVENTIONS**
 ### <a name="_cktpfhsqiiw8"></a>**4.1 Table Names**
-- Fact Tables: FACT\_<business\_process> (uppercase, underscore-separated)
-- Dimension Tables: DIM\_<dimension\_name> (uppercase, underscore-separated)
+
+|**Jenis Tabel**|**Konvensi**|**Contoh**|
+| :-: | :-: | :-: |
+|Tabel Fakta|FACT\_<PROSES\_BISNIS> (Huruf besar, dipisah underscore)|FACT\_PENGELUARAN, FACT\_PENERIMAAN|
+|Tabel Dimensi|DIM\_<NAMA\_DIMENSI> (Huruf besar, dipisah underscore)|DIM\_WAKTU, DIM\_AKUN, DIM\_PEGAWAI|
+
 ### <a name="_3tmcmef7kiok"></a>**4.2 Column Names**
-- Surrogate Keys: <table\_name>\_sk (lowercase, underscore-separated)
-- Foreign Keys: Match dimension surrogate key name
-- Measures: Descriptive names (e.g., jumlah\_transaksi, total\_penerimaan)
-- Attributes: Descriptive names (e.g., nama\_pegawai, kategori\_vendor)
+
+|**Jenis Kolom**|**Konvensi**|**Contoh**|
+| :-: | :-: | :-: |
+|Kunci Pengganti (Surrogate Keys)|<nama\_tabel>\_sk (Huruf kecil, dipisah underscore)|dim\_akun\_sk, fact\_pengeluaran\_sk|
+|Kunci Asing (Foreign Keys)|Sama dengan nama Surrogate Key Dimensi yang direferensikan|dim\_waktu\_sk, dim\_pegawai\_sk|
+|*Measures (Nilai Terukur)*|Nama deskriptif|jumlah\_transaksi, total\_penerimaan|
+|Atribut|Nama deskriptif|nama\_pegawai, kategori\_vendor|
+
 ### <a name="_mh0tjushajwk"></a>**4.3 Data Types**
-- Keys: INT
-- Monetary values: DECIMAL(15,2) or DECIMAL(12,2)
-- Percentages: DECIMAL(5,2)
-- Dates: DATE
-- Timestamps: TIMESTAMP
-- Boolean: BOOLEAN
-- Text: VARCHAR(n) where n is appropriate length
+
+|**Tipe Kolom**|**Tipe Data yang Digunakan**|**Format / Catatan**|
+| :-: | :-: | :-: |
+|Kunci (Keys)|INT|Untuk Surrogate dan Foreign Keys|
+|Nilai Moneter|DECIMAL(15,2) atau DECIMAL(12,2)|Presisi dan skala yang sesuai|
+|Persentase|DECIMAL(5,2)|Untuk nilai persentase|
+|Tanggal|DATE|Untuk tanggal tanpa waktu|
+|*Timestamp*|TIMESTAMP|Untuk tanggal dan waktu|
+|Boolean|BOOLEAN|TRUE atau FALSE|
+|Teks|VARCHAR(n)|Panjang n disesuaikan dengan kebutuhan|
 
 ## <a name="_dar8umk0uvph"></a>**5. METADATA**
 
@@ -1533,39 +1503,6 @@ Aktivitas:
 |Collation|Indonesian locale|
 |Timezone|Asia/Jakarta (WIB)|
 ##
-
-
-## <a name="_yhexn6b6pqx1"></a><a name="_imknxbis0ieq"></a>**Step 6: GitHub Repository Setup** 
-Tujuan: Menyiapkan repository untuk kolaborasi dan version control
-
-**Lampiran A: Checklist Progress Tracking** 
-
-**11.1.1 Misi 1 Checklist** 
-
-|**Kegiatan**|**Status**|
-| :-: | :-: |
-|Kick-off meeting dilaksanakan|Done|
-|Business requirements terdokumentasi |done|
-|Data sources teridentifikasi|done|
-|KPIs terdefinisi|done|
-|ERD sudah dibuat |done|
-|Fact tables teridentifikasi |done|
-|Dimension tables teridentifikasi |done|
-|Grain terdefinisi|done|
-|Dimensional model digambar|done|
-|Data dictionary lengkap|done|
-|GitHub repository dibuat|done|
-|README.md terpenuhi ||
-|Dokumentasi diupload ||
-|Presentasi Misi 1 dilaksanakan||
-
-
-
-
-
-
-
-
 
 
 
