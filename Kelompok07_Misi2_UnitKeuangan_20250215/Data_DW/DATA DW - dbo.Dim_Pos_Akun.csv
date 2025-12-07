@@ -1,0 +1,251 @@
+ID_Akun,Kode_Akun,Nama_Akun,Tipe_Akun,Grup_Akun
+AK0001,1000,Persediaan Barang,Aset,Non-Operasional
+AK0002,1001,Utang Pajak,Liabilitas,Non-Operasional
+AK0003,1002,Kas,Aset,Umum
+AK0004,1003,Investasi Jangka Panjang,Aset,Non-Operasional
+AK0005,1004,Beban Transportasi,Beban,Operasional
+AK0006,1005,Utang Sewa,Liabilitas,Operasional
+AK0007,1006,Cadangan Umum,Ekuitas,Non-Operasional
+AK0008,1007,Utang Dividen,Liabilitas,Non-Operasional
+AK0009,1008,Peralatan Kantor,Aset,Non-Operasional
+AK0010,1009,Pendapatan Diterima di Muka,Liabilitas,Lainnya
+AK0011,1010,Bank,Aset,Lainnya
+AK0012,1011,Kendaraan Operasional,Aset,Lainnya
+AK0013,1012,Pendapatan Operasional,Pendapatan,Operasional
+AK0014,1013,Pendapatan Royalti,Pendapatan,Lainnya
+AK0015,1014,Laba Ditahan,Ekuitas,Lainnya
+AK0016,1015,Laba Ditahan,Ekuitas,Non-Operasional
+AK0017,1016,Pendapatan Penjualan Aset,Pendapatan,Umum
+AK0018,1017,Tanah,Aset,Umum
+AK0019,1018,Peralatan Kantor,Aset,Umum
+AK0020,1019,Peralatan Kantor,Aset,Umum
+AK0021,1020,Beban Transportasi,Beban,Lainnya
+AK0022,1021,Pendapatan Lain-lain,Pendapatan,Lainnya
+AK0023,1022,Utang Gaji,Liabilitas,Operasional
+AK0024,1023,Laba Ditahan,Ekuitas,Lainnya
+AK0025,1024,Piutang Usaha,Aset,Operasional
+AK0026,1025,Kendaraan Operasional,Aset,Lainnya
+AK0027,1026,Pendapatan Sewa,Pendapatan,Non-Operasional
+AK0028,1027,Beban Internet dan Komunikasi,Beban,Operasional
+AK0029,1028,Utang Dagang,Liabilitas,Umum
+AK0030,1029,Bank,Aset,Operasional
+AK0031,1030,Utang Dividen,Liabilitas,Umum
+AK0032,1031,Pendapatan Komisi,Pendapatan,Operasional
+AK0033,1032,Cadangan Umum,Ekuitas,Non-Operasional
+AK0034,1033,Investasi Jangka Panjang,Aset,Operasional
+AK0035,1034,Cadangan Umum,Ekuitas,Lainnya
+AK0036,1035,Persediaan Barang,Aset,Umum
+AK0037,1036,Cadangan Wajib,Ekuitas,Operasional
+AK0038,1037,Ekuitas Lainnya,Ekuitas,Umum
+AK0039,1038,Kas,Aset,Lainnya
+AK0040,1039,Pendapatan Operasional,Pendapatan,Lainnya
+AK0041,1040,Modal Pemilik,Ekuitas,Operasional
+AK0042,1041,Pendapatan Diterima di Muka,Liabilitas,Umum
+AK0043,1042,Gedung Kantor,Aset,Operasional
+AK0044,1043,Gedung Kantor,Aset,Operasional
+AK0045,1044,Pendapatan Administrasi,Pendapatan,Lainnya
+AK0046,1045,Utang Dagang,Liabilitas,Umum
+AK0047,1046,Cadangan Umum,Ekuitas,Umum
+AK0048,1047,Beban Konsumsi,Beban,Lainnya
+AK0049,1048,Pendapatan Administrasi,Pendapatan,Umum
+AK0050,1049,Pendapatan Royalti,Pendapatan,Non-Operasional
+AK0051,1050,Tanah,Aset,Non-Operasional
+AK0052,1051,Laba Ditahan,Ekuitas,Non-Operasional
+AK0053,1052,Cadangan Umum,Ekuitas,Lainnya
+AK0054,1053,Pendapatan Penjualan Produk,Pendapatan,Non-Operasional
+AK0055,1054,Cadangan Wajib,Ekuitas,Operasional
+AK0056,1055,Beban Transportasi,Beban,Operasional
+AK0057,1056,Modal Pemilik,Ekuitas,Umum
+AK0058,1057,Ekuitas Lainnya,Ekuitas,Umum
+AK0059,1058,Ekuitas Lainnya,Ekuitas,Lainnya
+AK0060,1059,Kas,Aset,Umum
+AK0061,1060,Pendapatan Administrasi,Pendapatan,Lainnya
+AK0062,1061,Utang Obligasi,Liabilitas,Lainnya
+AK0063,1062,Beban ATK,Beban,Non-Operasional
+AK0064,1063,Modal Pemilik,Ekuitas,Non-Operasional
+AK0065,1064,Pendapatan Diterima di Muka,Liabilitas,Non-Operasional
+AK0066,1065,Beban Gaji Karyawan,Beban,Non-Operasional
+AK0067,1066,Pendapatan Jasa Konsultasi,Pendapatan,Operasional
+AK0068,1067,Persediaan Barang,Aset,Non-Operasional
+AK0069,1068,Beban Kebersihan,Beban,Operasional
+AK0070,1069,Beban Transportasi,Beban,Operasional
+AK0071,1070,Kendaraan Operasional,Aset,Operasional
+AK0072,1071,Utang Jangka Panjang,Liabilitas,Lainnya
+AK0073,1072,Beban ATK,Beban,Operasional
+AK0074,1073,Beban Transportasi,Beban,Non-Operasional
+AK0075,1074,Kas,Aset,Umum
+AK0076,1075,Beban Keamanan,Beban,Lainnya
+AK0077,1076,Ekuitas Lainnya,Ekuitas,Non-Operasional
+AK0078,1077,Pendapatan Lain-lain,Pendapatan,Umum
+AK0079,1078,Utang Gaji,Liabilitas,Non-Operasional
+AK0080,1079,Kendaraan Operasional,Aset,Umum
+AK0081,1080,Kas,Aset,Lainnya
+AK0082,1081,Pendapatan Bunga Bank,Pendapatan,Umum
+AK0083,1082,Tanah,Aset,Lainnya
+AK0084,1083,Piutang Usaha,Aset,Umum
+AK0085,1084,Peralatan Kantor,Aset,Operasional
+AK0086,1085,Utang Dagang,Liabilitas,Non-Operasional
+AK0087,1086,Pendapatan Komisi,Pendapatan,Non-Operasional
+AK0088,1087,Pendapatan Diterima di Muka,Liabilitas,Umum
+AK0089,1088,Pendapatan Sewa,Pendapatan,Non-Operasional
+AK0090,1089,Beban Gaji Karyawan,Beban,Lainnya
+AK0091,1090,Beban Gaji Karyawan,Beban,Operasional
+AK0092,1091,Laba Ditahan,Ekuitas,Lainnya
+AK0093,1092,Investasi Jangka Panjang,Aset,Lainnya
+AK0094,1093,Utang Bank,Liabilitas,Lainnya
+AK0095,1094,Pendapatan Administrasi,Pendapatan,Non-Operasional
+AK0096,1095,Bank,Aset,Operasional
+AK0097,1096,Kas,Aset,Non-Operasional
+AK0098,1097,Utang Bank,Liabilitas,Non-Operasional
+AK0099,1098,Pendapatan Penjualan Produk,Pendapatan,Non-Operasional
+AK0100,1099,Pendapatan Jasa Konsultasi,Pendapatan,Lainnya
+AK0101,1100,Cadangan Umum,Ekuitas,Lainnya
+AK0102,1101,Utang Pajak,Liabilitas,Non-Operasional
+AK0103,1102,Piutang Usaha,Aset,Lainnya
+AK0104,1103,Beban Sewa Gedung,Beban,Non-Operasional
+AK0105,1104,Cadangan Wajib,Ekuitas,Umum
+AK0106,1105,Beban Kebersihan,Beban,Lainnya
+AK0107,1106,Investasi Jangka Panjang,Aset,Operasional
+AK0108,1107,Utang Sewa,Liabilitas,Operasional
+AK0109,1108,Utang Pajak,Liabilitas,Umum
+AK0110,1109,Cadangan Wajib,Ekuitas,Lainnya
+AK0111,1110,Beban Keamanan,Beban,Operasional
+AK0112,1111,Pendapatan Royalti,Pendapatan,Umum
+AK0113,1112,Utang Bank,Liabilitas,Operasional
+AK0114,1113,Modal Pemilik,Ekuitas,Non-Operasional
+AK0115,1114,Pendapatan Sewa,Pendapatan,Non-Operasional
+AK0116,1115,Peralatan Kantor,Aset,Umum
+AK0117,1116,Cadangan Wajib,Ekuitas,Umum
+AK0118,1117,Modal Pemilik,Ekuitas,Lainnya
+AK0119,1118,Pendapatan Penjualan Produk,Pendapatan,Umum
+AK0120,1119,Beban ATK,Beban,Lainnya
+AK0121,1120,Beban Gaji Karyawan,Beban,Umum
+AK0122,1121,Pendapatan Operasional,Pendapatan,Non-Operasional
+AK0123,1122,Utang Sewa,Liabilitas,Umum
+AK0124,1123,Beban Sewa Gedung,Beban,Lainnya
+AK0125,1124,Modal Pemilik,Ekuitas,Umum
+AK0126,1125,Utang Gaji,Liabilitas,Operasional
+AK0127,1126,Beban Kebersihan,Beban,Umum
+AK0128,1127,Modal Pemilik,Ekuitas,Lainnya
+AK0129,1128,Beban Perawatan Kendaraan,Beban,Umum
+AK0130,1129,Utang Dividen,Liabilitas,Non-Operasional
+AK0131,1130,Laba Ditahan,Ekuitas,Umum
+AK0132,1131,Utang Sewa,Liabilitas,Lainnya
+AK0133,1132,Peralatan Kantor,Aset,Non-Operasional
+AK0134,1133,Tanah,Aset,Umum
+AK0135,1134,Aset Tetap Lainnya,Aset,Operasional
+AK0136,1135,Aset Tetap Lainnya,Aset,Operasional
+AK0137,1136,Persediaan Barang,Aset,Lainnya
+AK0138,1137,Kas,Aset,Umum
+AK0139,1138,Utang Jangka Panjang,Liabilitas,Lainnya
+AK0140,1139,Utang Gaji,Liabilitas,Lainnya
+AK0141,1140,Beban Internet dan Komunikasi,Beban,Umum
+AK0142,1141,Gedung Kantor,Aset,Operasional
+AK0143,1142,Utang Sewa,Liabilitas,Umum
+AK0144,1143,Utang Obligasi,Liabilitas,Non-Operasional
+AK0145,1144,Utang Gaji,Liabilitas,Operasional
+AK0146,1145,Beban Transportasi,Beban,Umum
+AK0147,1146,Modal Pemilik,Ekuitas,Non-Operasional
+AK0148,1147,Utang Bank,Liabilitas,Umum
+AK0149,1148,Utang Jangka Panjang,Liabilitas,Operasional
+AK0150,1149,Utang Obligasi,Liabilitas,Umum
+AK0151,1150,Persediaan Barang,Aset,Umum
+AK0152,1151,Beban Listrik dan Air,Beban,Operasional
+AK0153,1152,Peralatan Kantor,Aset,Non-Operasional
+AK0154,1153,Beban Gaji Karyawan,Beban,Lainnya
+AK0155,1154,Pendapatan Penjualan Aset,Pendapatan,Umum
+AK0156,1155,Ekuitas Lainnya,Ekuitas,Lainnya
+AK0157,1156,Utang Gaji,Liabilitas,Operasional
+AK0158,1157,Pendapatan Jasa Konsultasi,Pendapatan,Operasional
+AK0159,1158,Utang Dividen,Liabilitas,Non-Operasional
+AK0160,1159,Beban Internet dan Komunikasi,Beban,Operasional
+AK0161,1160,Beban ATK,Beban,Umum
+AK0162,1161,Pendapatan Diterima di Muka,Liabilitas,Operasional
+AK0163,1162,Beban Internet dan Komunikasi,Beban,Umum
+AK0164,1163,Beban Internet dan Komunikasi,Beban,Non-Operasional
+AK0165,1164,Tambahan Modal Disetor,Ekuitas,Operasional
+AK0166,1165,Piutang Usaha,Aset,Umum
+AK0167,1166,Pendapatan Operasional,Pendapatan,Umum
+AK0168,1167,Pendapatan Royalti,Pendapatan,Umum
+AK0169,1168,Investasi Jangka Panjang,Aset,Lainnya
+AK0170,1169,Pendapatan Administrasi,Pendapatan,Operasional
+AK0171,1170,Utang Dagang,Liabilitas,Operasional
+AK0172,1171,Utang Bank,Liabilitas,Umum
+AK0173,1172,Piutang Usaha,Aset,Operasional
+AK0174,1173,Kas,Aset,Umum
+AK0175,1174,Pendapatan Administrasi,Pendapatan,Operasional
+AK0176,1175,Pendapatan Administrasi,Pendapatan,Umum
+AK0177,1176,Cadangan Wajib,Ekuitas,Operasional
+AK0178,1177,Pendapatan Komisi,Pendapatan,Lainnya
+AK0179,1178,Pendapatan Jasa Konsultasi,Pendapatan,Operasional
+AK0180,1179,Ekuitas Lainnya,Ekuitas,Umum
+AK0181,1180,Tanah,Aset,Umum
+AK0182,1181,Cadangan Umum,Ekuitas,Umum
+AK0183,1182,Laba Ditahan,Ekuitas,Umum
+AK0184,1183,Investasi Jangka Panjang,Aset,Non-Operasional
+AK0185,1184,Utang Dagang,Liabilitas,Operasional
+AK0186,1185,Ekuitas Lainnya,Ekuitas,Lainnya
+AK0187,1186,Utang Pajak,Liabilitas,Non-Operasional
+AK0188,1187,Utang Sewa,Liabilitas,Umum
+AK0189,1188,Pendapatan Penjualan Produk,Pendapatan,Non-Operasional
+AK0190,1189,Kas,Aset,Lainnya
+AK0191,1190,Ekuitas Lainnya,Ekuitas,Umum
+AK0192,1191,Persediaan Barang,Aset,Operasional
+AK0193,1192,Cadangan Umum,Ekuitas,Non-Operasional
+AK0194,1193,Kas,Aset,Non-Operasional
+AK0195,1194,Beban Gaji Karyawan,Beban,Operasional
+AK0196,1195,Utang Gaji,Liabilitas,Umum
+AK0197,1196,Cadangan Umum,Ekuitas,Umum
+AK0198,1197,Utang Obligasi,Liabilitas,Operasional
+AK0199,1198,Utang Jangka Panjang,Liabilitas,Lainnya
+AK0200,1199,Utang Obligasi,Liabilitas,Operasional
+AK0201,1200,Piutang Usaha,Aset,Operasional
+AK0202,1201,Cadangan Umum,Ekuitas,Umum
+AK0203,1202,Peralatan Kantor,Aset,Lainnya
+AK0204,1203,Cadangan Umum,Ekuitas,Lainnya
+AK0205,1204,Laba Ditahan,Ekuitas,Lainnya
+AK0206,1205,Beban Perawatan Kendaraan,Beban,Operasional
+AK0207,1206,Kas,Aset,Non-Operasional
+AK0208,1207,Pendapatan Bunga Bank,Pendapatan,Operasional
+AK0209,1208,Utang Bank,Liabilitas,Umum
+AK0210,1209,Beban Sewa Gedung,Beban,Non-Operasional
+AK0211,1210,Gedung Kantor,Aset,Non-Operasional
+AK0212,1211,Pendapatan Komisi,Pendapatan,Lainnya
+AK0213,1212,Beban Gaji Karyawan,Beban,Lainnya
+AK0214,1213,Beban Internet dan Komunikasi,Beban,Umum
+AK0215,1214,Persediaan Barang,Aset,Lainnya
+AK0216,1215,Tanah,Aset,Operasional
+AK0217,1216,Cadangan Wajib,Ekuitas,Lainnya
+AK0218,1217,Tambahan Modal Disetor,Ekuitas,Non-Operasional
+AK0219,1218,Utang Dagang,Liabilitas,Umum
+AK0220,1219,Beban ATK,Beban,Lainnya
+AK0221,1220,Beban Kebersihan,Beban,Umum
+AK0222,1221,Beban Transportasi,Beban,Lainnya
+AK0223,1222,Beban Konsumsi,Beban,Non-Operasional
+AK0224,1223,Cadangan Wajib,Ekuitas,Non-Operasional
+AK0225,1224,Pendapatan Penjualan Produk,Pendapatan,Lainnya
+AK0226,1225,Pendapatan Operasional,Pendapatan,Umum
+AK0227,1226,Pendapatan Penjualan Aset,Pendapatan,Operasional
+AK0228,1227,Utang Gaji,Liabilitas,Umum
+AK0229,1228,Beban Transportasi,Beban,Operasional
+AK0230,1229,Beban Perawatan Kendaraan,Beban,Operasional
+AK0231,1230,Pendapatan Lain-lain,Pendapatan,Lainnya
+AK0232,1231,Utang Gaji,Liabilitas,Umum
+AK0233,1232,Pendapatan Penjualan Produk,Pendapatan,Umum
+AK0234,1233,Bank,Aset,Non-Operasional
+AK0235,1234,Pendapatan Sewa,Pendapatan,Non-Operasional
+AK0236,1235,Ekuitas Lainnya,Ekuitas,Non-Operasional
+AK0237,1236,Cadangan Wajib,Ekuitas,Umum
+AK0238,1237,Utang Obligasi,Liabilitas,Lainnya
+AK0239,1238,Pendapatan Diterima di Muka,Liabilitas,Lainnya
+AK0240,1239,Kas,Aset,Lainnya
+AK0241,1240,Pendapatan Diterima di Muka,Liabilitas,Umum
+AK0242,1241,Pendapatan Penjualan Aset,Pendapatan,Lainnya
+AK0243,1242,Cadangan Wajib,Ekuitas,Non-Operasional
+AK0244,1243,Pendapatan Diterima di Muka,Liabilitas,Operasional
+AK0245,1244,Pendapatan Jasa Konsultasi,Pendapatan,Umum
+AK0246,1245,Beban Kebersihan,Beban,Non-Operasional
+AK0247,1246,Persediaan Barang,Aset,Umum
+AK0248,1247,Ekuitas Lainnya,Ekuitas,Non-Operasional
+AK0249,1248,Ekuitas Lainnya,Ekuitas,Umum
+AK0250,1249,Aset Tetap Lainnya,Aset,Non-Operasional

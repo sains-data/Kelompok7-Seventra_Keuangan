@@ -1,0 +1,251 @@
+ID_Unit,Kode_Unit,Nama_Unit,Nama_Fakultas,Tipe_Unit
+1,FAC001,Fakultas Sains,Fakultas Sains,Akademik
+2,FAC002,Fakultas Teknologi Infrastruktur dan Kewilayahan,Fakultas Teknologi Infrastruktur dan Kewilayahan,Akademik
+3,FAC003,Fakultas Teknologi Produksi dan Industri,Fakultas Teknologi Produksi dan Industri,Akademik
+4,PROD004,Program Studi Teknik Geomatika,Fakultas Teknologi Infrastruktur dan Kewilayahan,Akademik
+5,PROD005,Program Studi Perencanaan Wilayah dan Kota,Fakultas Teknologi Infrastruktur dan Kewilayahan,Akademik
+6,PROD006,Program Studi Teknik Sipil,Fakultas Teknologi Infrastruktur dan Kewilayahan,Akademik
+7,PROD007,Program Studi Arsitektur,Fakultas Teknologi Infrastruktur dan Kewilayahan,Akademik
+8,PROD008,Program Studi Teknik Lingkungan,Fakultas Teknologi Infrastruktur dan Kewilayahan,Akademik
+9,PROD009,Program Studi Teknik Kelautan,Fakultas Teknologi Infrastruktur dan Kewilayahan,Akademik
+10,PROD010,Program Studi Desain Komunikasi Visual,Fakultas Teknologi Infrastruktur dan Kewilayahan,Akademik
+11,PROD011,Program Studi Arsitektur Lanskap,Fakultas Teknologi Infrastruktur dan Kewilayahan,Akademik
+12,PROD012,Program Studi Teknik Perkeretaapian,Fakultas Teknologi Infrastruktur dan Kewilayahan,Akademik
+13,PROD013,Program Studi Rekayasa Tata Kelola Air Terpardu,Fakultas Teknologi Infrastruktur dan Kewilayahan,Akademik
+14,PROD014,Program Studi Teknik Elektro,Fakultas Teknologi Produksi dan Industri,Akademik
+15,PROD015,Program Studi Teknik Geofisika,Fakultas Teknologi Produksi dan Industri,Akademik
+16,PROD016,Program Studi Teknik Informatika,Fakultas Teknologi Produksi dan Industri,Akademik
+17,PROD017,Program Studi Teknik Geologi,Fakultas Teknologi Produksi dan Industri,Akademik
+18,PROD018,Program Studi Teknik Mesin,Fakultas Teknologi Produksi dan Industri,Akademik
+19,PROD019,Program Studi Teknik Industri,Fakultas Teknologi Produksi dan Industri,Akademik
+20,PROD020,Program Studi Teknik Kimia,Fakultas Teknologi Produksi dan Industri,Akademik
+21,PROD021,Program Studi Teknik Fisika,Fakultas Teknologi Produksi dan Industri,Akademik
+22,PROD022,Program Studi Teknik Biosistem,Fakultas Teknologi Produksi dan Industri,Akademik
+23,PROD023,Program Studi Teknologi Industri Pertanian,Fakultas Teknologi Produksi dan Industri,Akademik
+24,PROD024,Program Studi Teknologi Pangan,Fakultas Teknologi Produksi dan Industri,Akademik
+25,PROD025,Program Studi Teknik Sistem Energi,Fakultas Teknologi Produksi dan Industri,Akademik
+26,PROD026,Program Studi Teknik Pertambangan,Fakultas Teknologi Produksi dan Industri,Akademik
+27,PROD027,Program Studi Teknik Material,Fakultas Teknologi Produksi dan Industri,Akademik
+28,PROD028,Program Studi Teknik Telekomunikasi,Fakultas Teknologi Produksi dan Industri,Akademik
+29,PROD029,Rekayasa Kehutanan,Fakultas Teknologi Produksi dan Industri,Akademik
+30,PROD030,Program Studi Teknik Biomedik,Fakultas Teknologi Produksi dan Industri,Akademik
+31,PROD031,Program Studi Rekayasa Kosmetik,Fakultas Teknologi Produksi dan Industri,Akademik
+32,PROD032,Program Studi Rekayasa Minyak dan Gas,Fakultas Teknologi Produksi dan Industri,Akademik
+33,PROD033,Program Studi Rekayasa Instrumentasi dan Automasi,Fakultas Teknologi Produksi dan Industri,Akademik
+34,PROD034,Program Studi Fisika,Fakultas Sains,Akademik
+35,PROD035,Program Studi Matematika,Fakultas Sains,Akademik
+36,PROD036,Program Studi Biologi,Fakultas Sains,Akademik
+37,PROD037,Program Studi Kimia,Fakultas Sains,Akademik
+38,PROD038,Program Studi Farmasi,Fakultas Sains,Akademik
+39,PROD039,Program Studi Atmosfer dan Keplanetan,Fakultas Sains,Akademik
+40,PROD040,Program Studi Sains Aktuaria,Fakultas Sains,Akademik
+41,PROD041,Progam Studi Sains Lingkungan Kelautan,Fakultas Sains,Akademik
+42,PROD042,Program Studi Sains Data,Fakultas Sains,Akademik
+43,PROD043,Program Studi Magister Fisika,Fakultas Sains,Akademik
+44,ADM044,Biro Administrasi 1,Administrasi Umum,Administrasi
+45,ADM045,Biro Administrasi 2,Administrasi Umum,Administrasi
+46,ADM046,Biro Administrasi 3,Administrasi Umum,Administrasi
+47,ADM047,Biro Administrasi 4,Administrasi Umum,Administrasi
+48,ADM048,Biro Administrasi 5,Administrasi Umum,Administrasi
+49,ADM049,Biro Administrasi 6,Administrasi Umum,Administrasi
+50,ADM050,Biro Administrasi 7,Administrasi Umum,Administrasi
+51,ADM051,Biro Administrasi 8,Administrasi Umum,Administrasi
+52,ADM052,Biro Administrasi 9,Administrasi Umum,Administrasi
+53,ADM053,Biro Administrasi 10,Administrasi Umum,Administrasi
+54,ADM054,Biro Administrasi 11,Administrasi Umum,Administrasi
+55,ADM055,Biro Administrasi 12,Administrasi Umum,Administrasi
+56,ADM056,Biro Administrasi 13,Administrasi Umum,Administrasi
+57,ADM057,Biro Administrasi 14,Administrasi Umum,Administrasi
+58,ADM058,Biro Administrasi 15,Administrasi Umum,Administrasi
+59,ADM059,Biro Administrasi 16,Administrasi Umum,Administrasi
+60,ADM060,Biro Administrasi 17,Administrasi Umum,Administrasi
+61,ADM061,Biro Administrasi 18,Administrasi Umum,Administrasi
+62,ADM062,Biro Administrasi 19,Administrasi Umum,Administrasi
+63,ADM063,Biro Administrasi 20,Administrasi Umum,Administrasi
+64,ADM064,Biro Administrasi 21,Administrasi Umum,Administrasi
+65,ADM065,Biro Administrasi 22,Administrasi Umum,Administrasi
+66,ADM066,Biro Administrasi 23,Administrasi Umum,Administrasi
+67,ADM067,Biro Administrasi 24,Administrasi Umum,Administrasi
+68,ADM068,Biro Administrasi 25,Administrasi Umum,Administrasi
+69,ADM069,Biro Administrasi 26,Administrasi Umum,Administrasi
+70,ADM070,Biro Administrasi 27,Administrasi Umum,Administrasi
+71,ADM071,Biro Administrasi 28,Administrasi Umum,Administrasi
+72,ADM072,Biro Administrasi 29,Administrasi Umum,Administrasi
+73,ADM073,Biro Administrasi 30,Administrasi Umum,Administrasi
+74,ADM074,Biro Administrasi 31,Administrasi Umum,Administrasi
+75,ADM075,Biro Administrasi 32,Administrasi Umum,Administrasi
+76,ADM076,Biro Administrasi 33,Administrasi Umum,Administrasi
+77,ADM077,Biro Administrasi 34,Administrasi Umum,Administrasi
+78,ADM078,Biro Administrasi 35,Administrasi Umum,Administrasi
+79,ADM079,Biro Administrasi 36,Administrasi Umum,Administrasi
+80,ADM080,Biro Administrasi 37,Administrasi Umum,Administrasi
+81,ADM081,Biro Administrasi 38,Administrasi Umum,Administrasi
+82,ADM082,Biro Administrasi 39,Administrasi Umum,Administrasi
+83,ADM083,Biro Administrasi 40,Administrasi Umum,Administrasi
+84,ADM084,Biro Administrasi 41,Administrasi Umum,Administrasi
+85,ADM085,Biro Administrasi 42,Administrasi Umum,Administrasi
+86,ADM086,Biro Administrasi 43,Administrasi Umum,Administrasi
+87,ADM087,Biro Administrasi 44,Administrasi Umum,Administrasi
+88,ADM088,Biro Administrasi 45,Administrasi Umum,Administrasi
+89,ADM089,Biro Administrasi 46,Administrasi Umum,Administrasi
+90,ADM090,Biro Administrasi 47,Administrasi Umum,Administrasi
+91,ADM091,Biro Administrasi 48,Administrasi Umum,Administrasi
+92,ADM092,Biro Administrasi 49,Administrasi Umum,Administrasi
+93,ADM093,Biro Administrasi 50,Administrasi Umum,Administrasi
+94,ADM094,Biro Administrasi 51,Administrasi Umum,Administrasi
+95,ADM095,Biro Administrasi 52,Administrasi Umum,Administrasi
+96,ADM096,Biro Administrasi 53,Administrasi Umum,Administrasi
+97,ADM097,Biro Administrasi 54,Administrasi Umum,Administrasi
+98,ADM098,Biro Administrasi 55,Administrasi Umum,Administrasi
+99,ADM099,Biro Administrasi 56,Administrasi Umum,Administrasi
+100,ADM100,Biro Administrasi 57,Administrasi Umum,Administrasi
+101,ADM101,Biro Administrasi 58,Administrasi Umum,Administrasi
+102,ADM102,Biro Administrasi 59,Administrasi Umum,Administrasi
+103,ADM103,Biro Administrasi 60,Administrasi Umum,Administrasi
+104,ADM104,Biro Administrasi 61,Administrasi Umum,Administrasi
+105,ADM105,Biro Administrasi 62,Administrasi Umum,Administrasi
+106,ADM106,Biro Administrasi 63,Administrasi Umum,Administrasi
+107,ADM107,Biro Administrasi 64,Administrasi Umum,Administrasi
+108,ADM108,Biro Administrasi 65,Administrasi Umum,Administrasi
+109,ADM109,Biro Administrasi 66,Administrasi Umum,Administrasi
+110,ADM110,Biro Administrasi 67,Administrasi Umum,Administrasi
+111,ADM111,Biro Administrasi 68,Administrasi Umum,Administrasi
+112,ADM112,Biro Administrasi 69,Administrasi Umum,Administrasi
+113,ADM113,Biro Administrasi 70,Administrasi Umum,Administrasi
+114,ADM114,Biro Administrasi 71,Administrasi Umum,Administrasi
+115,ADM115,Biro Administrasi 72,Administrasi Umum,Administrasi
+116,ADM116,Biro Administrasi 73,Administrasi Umum,Administrasi
+117,ADM117,Biro Administrasi 74,Administrasi Umum,Administrasi
+118,ADM118,Biro Administrasi 75,Administrasi Umum,Administrasi
+119,ADM119,Biro Administrasi 76,Administrasi Umum,Administrasi
+120,ADM120,Biro Administrasi 77,Administrasi Umum,Administrasi
+121,ADM121,Biro Administrasi 78,Administrasi Umum,Administrasi
+122,ADM122,Biro Administrasi 79,Administrasi Umum,Administrasi
+123,ADM123,Biro Administrasi 80,Administrasi Umum,Administrasi
+124,ADM124,Biro Administrasi 81,Administrasi Umum,Administrasi
+125,ADM125,Biro Administrasi 82,Administrasi Umum,Administrasi
+126,ADM126,Biro Administrasi 83,Administrasi Umum,Administrasi
+127,ADM127,Biro Administrasi 84,Administrasi Umum,Administrasi
+128,ADM128,Biro Administrasi 85,Administrasi Umum,Administrasi
+129,ADM129,Biro Administrasi 86,Administrasi Umum,Administrasi
+130,ADM130,Biro Administrasi 87,Administrasi Umum,Administrasi
+131,ADM131,Biro Administrasi 88,Administrasi Umum,Administrasi
+132,ADM132,Biro Administrasi 89,Administrasi Umum,Administrasi
+133,ADM133,Biro Administrasi 90,Administrasi Umum,Administrasi
+134,ADM134,Biro Administrasi 91,Administrasi Umum,Administrasi
+135,ADM135,Biro Administrasi 92,Administrasi Umum,Administrasi
+136,ADM136,Biro Administrasi 93,Administrasi Umum,Administrasi
+137,ADM137,Biro Administrasi 94,Administrasi Umum,Administrasi
+138,ADM138,Biro Administrasi 95,Administrasi Umum,Administrasi
+139,ADM139,Biro Administrasi 96,Administrasi Umum,Administrasi
+140,ADM140,Biro Administrasi 97,Administrasi Umum,Administrasi
+141,ADM141,Biro Administrasi 98,Administrasi Umum,Administrasi
+142,ADM142,Biro Administrasi 99,Administrasi Umum,Administrasi
+143,ADM143,Biro Administrasi 100,Administrasi Umum,Administrasi
+144,ADM144,Biro Administrasi 101,Administrasi Umum,Administrasi
+145,ADM145,Biro Administrasi 102,Administrasi Umum,Administrasi
+146,ADM146,Biro Administrasi 103,Administrasi Umum,Administrasi
+147,ADM147,Biro Administrasi 104,Administrasi Umum,Administrasi
+148,ADM148,Biro Administrasi 105,Administrasi Umum,Administrasi
+149,ADM149,Biro Administrasi 106,Administrasi Umum,Administrasi
+150,ADM150,Biro Administrasi 107,Administrasi Umum,Administrasi
+151,ADM151,Biro Administrasi 108,Administrasi Umum,Administrasi
+152,ADM152,Biro Administrasi 109,Administrasi Umum,Administrasi
+153,ADM153,Biro Administrasi 110,Administrasi Umum,Administrasi
+154,ADM154,Biro Administrasi 111,Administrasi Umum,Administrasi
+155,ADM155,Biro Administrasi 112,Administrasi Umum,Administrasi
+156,ADM156,Biro Administrasi 113,Administrasi Umum,Administrasi
+157,ADM157,Biro Administrasi 114,Administrasi Umum,Administrasi
+158,ADM158,Biro Administrasi 115,Administrasi Umum,Administrasi
+159,ADM159,Biro Administrasi 116,Administrasi Umum,Administrasi
+160,ADM160,Biro Administrasi 117,Administrasi Umum,Administrasi
+161,ADM161,Biro Administrasi 118,Administrasi Umum,Administrasi
+162,ADM162,Biro Administrasi 119,Administrasi Umum,Administrasi
+163,ADM163,Biro Administrasi 120,Administrasi Umum,Administrasi
+164,ADM164,Biro Administrasi 121,Administrasi Umum,Administrasi
+165,ADM165,Biro Administrasi 122,Administrasi Umum,Administrasi
+166,ADM166,Biro Administrasi 123,Administrasi Umum,Administrasi
+167,ADM167,Biro Administrasi 124,Administrasi Umum,Administrasi
+168,ADM168,Biro Administrasi 125,Administrasi Umum,Administrasi
+169,ADM169,Biro Administrasi 126,Administrasi Umum,Administrasi
+170,ADM170,Biro Administrasi 127,Administrasi Umum,Administrasi
+171,ADM171,Biro Administrasi 128,Administrasi Umum,Administrasi
+172,ADM172,Biro Administrasi 129,Administrasi Umum,Administrasi
+173,ADM173,Biro Administrasi 130,Administrasi Umum,Administrasi
+174,ADM174,Biro Administrasi 131,Administrasi Umum,Administrasi
+175,ADM175,Biro Administrasi 132,Administrasi Umum,Administrasi
+176,ADM176,Biro Administrasi 133,Administrasi Umum,Administrasi
+177,ADM177,Biro Administrasi 134,Administrasi Umum,Administrasi
+178,ADM178,Biro Administrasi 135,Administrasi Umum,Administrasi
+179,ADM179,Biro Administrasi 136,Administrasi Umum,Administrasi
+180,ADM180,Biro Administrasi 137,Administrasi Umum,Administrasi
+181,ADM181,Biro Administrasi 138,Administrasi Umum,Administrasi
+182,ADM182,Biro Administrasi 139,Administrasi Umum,Administrasi
+183,ADM183,Biro Administrasi 140,Administrasi Umum,Administrasi
+184,ADM184,Biro Administrasi 141,Administrasi Umum,Administrasi
+185,ADM185,Biro Administrasi 142,Administrasi Umum,Administrasi
+186,ADM186,Biro Administrasi 143,Administrasi Umum,Administrasi
+187,ADM187,Biro Administrasi 144,Administrasi Umum,Administrasi
+188,ADM188,Biro Administrasi 145,Administrasi Umum,Administrasi
+189,ADM189,Biro Administrasi 146,Administrasi Umum,Administrasi
+190,ADM190,Biro Administrasi 147,Administrasi Umum,Administrasi
+191,ADM191,Biro Administrasi 148,Administrasi Umum,Administrasi
+192,ADM192,Biro Administrasi 149,Administrasi Umum,Administrasi
+193,ADM193,Biro Administrasi 150,Administrasi Umum,Administrasi
+194,ADM194,Biro Administrasi 151,Administrasi Umum,Administrasi
+195,ADM195,Biro Administrasi 152,Administrasi Umum,Administrasi
+196,ADM196,Biro Administrasi 153,Administrasi Umum,Administrasi
+197,ADM197,Biro Administrasi 154,Administrasi Umum,Administrasi
+198,ADM198,Biro Administrasi 155,Administrasi Umum,Administrasi
+199,ADM199,Biro Administrasi 156,Administrasi Umum,Administrasi
+200,ADM200,Biro Administrasi 157,Administrasi Umum,Administrasi
+201,ADM201,Biro Administrasi 158,Administrasi Umum,Administrasi
+202,ADM202,Biro Administrasi 159,Administrasi Umum,Administrasi
+203,ADM203,Biro Administrasi 160,Administrasi Umum,Administrasi
+204,ADM204,Biro Administrasi 161,Administrasi Umum,Administrasi
+205,ADM205,Biro Administrasi 162,Administrasi Umum,Administrasi
+206,ADM206,Biro Administrasi 163,Administrasi Umum,Administrasi
+207,ADM207,Biro Administrasi 164,Administrasi Umum,Administrasi
+208,ADM208,Biro Administrasi 165,Administrasi Umum,Administrasi
+209,ADM209,Biro Administrasi 166,Administrasi Umum,Administrasi
+210,ADM210,Biro Administrasi 167,Administrasi Umum,Administrasi
+211,ADM211,Biro Administrasi 168,Administrasi Umum,Administrasi
+212,ADM212,Biro Administrasi 169,Administrasi Umum,Administrasi
+213,ADM213,Biro Administrasi 170,Administrasi Umum,Administrasi
+214,ADM214,Biro Administrasi 171,Administrasi Umum,Administrasi
+215,ADM215,Biro Administrasi 172,Administrasi Umum,Administrasi
+216,ADM216,Biro Administrasi 173,Administrasi Umum,Administrasi
+217,ADM217,Biro Administrasi 174,Administrasi Umum,Administrasi
+218,ADM218,Biro Administrasi 175,Administrasi Umum,Administrasi
+219,ADM219,Biro Administrasi 176,Administrasi Umum,Administrasi
+220,ADM220,Biro Administrasi 177,Administrasi Umum,Administrasi
+221,ADM221,Biro Administrasi 178,Administrasi Umum,Administrasi
+222,ADM222,Biro Administrasi 179,Administrasi Umum,Administrasi
+223,ADM223,Biro Administrasi 180,Administrasi Umum,Administrasi
+224,ADM224,Biro Administrasi 181,Administrasi Umum,Administrasi
+225,ADM225,Biro Administrasi 182,Administrasi Umum,Administrasi
+226,ADM226,Biro Administrasi 183,Administrasi Umum,Administrasi
+227,ADM227,Biro Administrasi 184,Administrasi Umum,Administrasi
+228,ADM228,Biro Administrasi 185,Administrasi Umum,Administrasi
+229,ADM229,Biro Administrasi 186,Administrasi Umum,Administrasi
+230,ADM230,Biro Administrasi 187,Administrasi Umum,Administrasi
+231,ADM231,Biro Administrasi 188,Administrasi Umum,Administrasi
+232,ADM232,Biro Administrasi 189,Administrasi Umum,Administrasi
+233,ADM233,Biro Administrasi 190,Administrasi Umum,Administrasi
+234,ADM234,Biro Administrasi 191,Administrasi Umum,Administrasi
+235,ADM235,Biro Administrasi 192,Administrasi Umum,Administrasi
+236,ADM236,Biro Administrasi 193,Administrasi Umum,Administrasi
+237,ADM237,Biro Administrasi 194,Administrasi Umum,Administrasi
+238,ADM238,Biro Administrasi 195,Administrasi Umum,Administrasi
+239,ADM239,Biro Administrasi 196,Administrasi Umum,Administrasi
+240,ADM240,Biro Administrasi 197,Administrasi Umum,Administrasi
+241,ADM241,Biro Administrasi 198,Administrasi Umum,Administrasi
+242,ADM242,Biro Administrasi 199,Administrasi Umum,Administrasi
+243,ADM243,Biro Administrasi 200,Administrasi Umum,Administrasi
+244,ADM244,Biro Administrasi 201,Administrasi Umum,Administrasi
+245,ADM245,Biro Administrasi 202,Administrasi Umum,Administrasi
+246,ADM246,Biro Administrasi 203,Administrasi Umum,Administrasi
+247,ADM247,Biro Administrasi 204,Administrasi Umum,Administrasi
+248,ADM248,Biro Administrasi 205,Administrasi Umum,Administrasi
+249,ADM249,Biro Administrasi 206,Administrasi Umum,Administrasi
+250,ADM250,Biro Administrasi 207,Administrasi Umum,Administrasi

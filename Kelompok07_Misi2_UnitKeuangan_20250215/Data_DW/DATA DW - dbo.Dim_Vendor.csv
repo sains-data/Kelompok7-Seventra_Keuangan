@@ -1,0 +1,251 @@
+ID_Vendor,Kode_Vendor,Nama_Vendor,Kategori_Vendor,Kota
+VN0001,V7675,UD Solusi Sejahtera,Keuangan,Surabaya
+VN0002,V7087,PT Global Indo,Jasa,Yogyakarta
+VN0003,V8660,CV Techno Indo,Keuangan,Jakarta
+VN0004,V0764,PT Mandiri Indo,Jasa,Bandung
+VN0005,V8335,PT Global Maju Bersama,Konsumsi,Palembang
+VN0006,V9230,UD Cakra Abadi,IT,Denpasar
+VN0007,V1291,CV Solusi Indo,Konsumsi,Medan
+VN0008,V4042,UD Nusantara Maju Bersama,Logistik,Surabaya
+VN0009,V4874,PT Techno Abadi,Jasa,Makassar
+VN0010,V2245,PT Nusantara Maju Bersama,Jasa,Medan
+VN0011,V2782,PT Nusantara Sejahtera,IT,Yogyakarta
+VN0012,V8392,UD Prima Abadi,Konsumsi,Medan
+VN0013,V4411,PT Nusantara Maju Bersama,Jasa,Surabaya
+VN0014,V0291,PT Mandiri Maju Bersama,Konsumsi,Surabaya
+VN0015,V8079,CV Global Jaya,Logistik,Yogyakarta
+VN0016,V6784,CV Solusi Indo,Jasa,Yogyakarta
+VN0017,V9282,UD Mandiri Indo,Logistik,Palembang
+VN0018,V6961,UD Global Maju Bersama,Konsumsi,Bandung
+VN0019,V8102,PT Techno Abadi,Keuangan,Denpasar
+VN0020,V0181,CV Cakra Abadi,IT,Palembang
+VN0021,V8740,PT Cakra Sejahtera,Logistik,Yogyakarta
+VN0022,V8045,PT Cakra Maju Bersama,Keuangan,Surabaya
+VN0023,V4182,UD Cakra Jaya,Jasa,Jakarta
+VN0024,V0200,UD Techno Sejahtera,Keuangan,Medan
+VN0025,V0220,PT Solusi Jaya,Keuangan,Bandung
+VN0026,V6261,CV Prima Maju Bersama,Keuangan,Denpasar
+VN0027,V6475,CV Global Sejahtera,IT,Surabaya
+VN0028,V7521,UD Nusantara Abadi,IT,Palembang
+VN0029,V4518,CV Sentosa Jaya,Konsumsi,Jakarta
+VN0030,V6377,UD Solusi Maju Bersama,Logistik,Makassar
+VN0031,V0685,PT Solusi Maju Bersama,Keuangan,Palembang
+VN0032,V8536,PT Techno Maju Bersama,Logistik,Bandung
+VN0033,V2087,UD Prima Abadi,Konsumsi,Bandung
+VN0034,V7295,UD Prima Maju Bersama,Konsumsi,Medan
+VN0035,V0253,CV Mandiri Maju Bersama,Keuangan,Surabaya
+VN0036,V1681,CV Global Indo,Konsumsi,Makassar
+VN0037,V3897,PT Prima Jaya,Keuangan,Denpasar
+VN0038,V8521,CV Solusi Abadi,Keuangan,Bandung
+VN0039,V9326,CV Prima Jaya,Jasa,Yogyakarta
+VN0040,V1054,PT Prima Sejahtera,Konsumsi,Bandung
+VN0041,V8682,CV Techno Jaya,IT,Surabaya
+VN0042,V1813,CV Sentosa Maju Bersama,Konsumsi,Bandung
+VN0043,V4067,PT Sentosa Abadi,Keuangan,Bandung
+VN0044,V8781,CV Sentosa Jaya,IT,Bandung
+VN0045,V7311,PT Cakra Abadi,IT,Yogyakarta
+VN0046,V2496,PT Solusi Jaya,Konsumsi,Denpasar
+VN0047,V7810,CV Nusantara Indo,Logistik,Palembang
+VN0048,V1630,CV Global Sejahtera,Jasa,Jakarta
+VN0049,V6984,PT Global Abadi,Jasa,Medan
+VN0050,V6102,CV Nusantara Jaya,IT,Makassar
+VN0051,V7290,CV Solusi Maju Bersama,Keuangan,Medan
+VN0052,V7709,UD Solusi Sejahtera,Keuangan,Makassar
+VN0053,V4961,PT Nusantara Sejahtera,Keuangan,Denpasar
+VN0054,V5850,PT Sentosa Sejahtera,Konsumsi,Medan
+VN0055,V2303,PT Prima Abadi,IT,Jakarta
+VN0056,V9673,CV Sentosa Sejahtera,Keuangan,Surabaya
+VN0057,V0979,PT Global Sejahtera,Konsumsi,Surabaya
+VN0058,V9570,CV Mandiri Abadi,Jasa,Denpasar
+VN0059,V5433,PT Nusantara Indo,Logistik,Denpasar
+VN0060,V6656,PT Sentosa Abadi,Keuangan,Bandung
+VN0061,V8925,CV Techno Jaya,Jasa,Makassar
+VN0062,V6151,PT Global Jaya,Keuangan,Surabaya
+VN0063,V1145,PT Solusi Maju Bersama,Konsumsi,Palembang
+VN0064,V6594,CV Cakra Abadi,Keuangan,Palembang
+VN0065,V8326,UD Techno Maju Bersama,IT,Palembang
+VN0066,V3726,UD Mandiri Indo,Konsumsi,Makassar
+VN0067,V7588,CV Global Jaya,Jasa,Yogyakarta
+VN0068,V9626,UD Prima Sejahtera,IT,Palembang
+VN0069,V0548,UD Sentosa Abadi,Konsumsi,Denpasar
+VN0070,V6177,CV Solusi Maju Bersama,Keuangan,Makassar
+VN0071,V6219,CV Mandiri Maju Bersama,Logistik,Makassar
+VN0072,V8246,UD Solusi Abadi,Jasa,Palembang
+VN0073,V7087,UD Prima Maju Bersama,Keuangan,Denpasar
+VN0074,V7309,UD Cakra Abadi,Jasa,Jakarta
+VN0075,V3994,PT Prima Maju Bersama,Keuangan,Denpasar
+VN0076,V1133,PT Prima Jaya,Jasa,Surabaya
+VN0077,V2853,CV Solusi Jaya,Jasa,Palembang
+VN0078,V2310,UD Cakra Indo,Keuangan,Jakarta
+VN0079,V4175,UD Sentosa Abadi,Logistik,Denpasar
+VN0080,V5319,PT Techno Jaya,Jasa,Medan
+VN0081,V5119,UD Global Abadi,Keuangan,Medan
+VN0082,V5776,PT Techno Indo,IT,Yogyakarta
+VN0083,V9000,PT Techno Maju Bersama,Konsumsi,Medan
+VN0084,V9502,UD Cakra Maju Bersama,Logistik,Palembang
+VN0085,V8473,UD Prima Maju Bersama,Logistik,Surabaya
+VN0086,V6040,CV Global Sejahtera,Jasa,Denpasar
+VN0087,V7855,PT Global Indo,Logistik,Denpasar
+VN0088,V4364,UD Solusi Jaya,IT,Medan
+VN0089,V1801,PT Global Indo,IT,Jakarta
+VN0090,V5128,UD Mandiri Indo,Logistik,Palembang
+VN0091,V8668,PT Sentosa Sejahtera,Jasa,Medan
+VN0092,V4460,CV Sentosa Jaya,Konsumsi,Makassar
+VN0093,V6327,CV Mandiri Jaya,Konsumsi,Jakarta
+VN0094,V9762,UD Global Indo,IT,Medan
+VN0095,V9594,PT Sentosa Maju Bersama,IT,Bandung
+VN0096,V2464,UD Cakra Maju Bersama,IT,Medan
+VN0097,V7088,PT Prima Indo,Logistik,Medan
+VN0098,V1227,UD Techno Abadi,Logistik,Bandung
+VN0099,V1690,PT Cakra Sejahtera,Jasa,Medan
+VN0100,V4606,UD Mandiri Sejahtera,Keuangan,Yogyakarta
+VN0101,V2797,UD Solusi Indo,IT,Surabaya
+VN0102,V8709,CV Techno Jaya,Jasa,Palembang
+VN0103,V5502,UD Mandiri Sejahtera,IT,Denpasar
+VN0104,V0866,UD Sentosa Indo,Keuangan,Makassar
+VN0105,V7092,PT Sentosa Abadi,Konsumsi,Jakarta
+VN0106,V3708,PT Prima Maju Bersama,Keuangan,Palembang
+VN0107,V2064,CV Solusi Maju Bersama,Logistik,Makassar
+VN0108,V8849,CV Techno Abadi,Logistik,Medan
+VN0109,V7142,PT Cakra Indo,Jasa,Makassar
+VN0110,V9133,PT Global Sejahtera,Konsumsi,Palembang
+VN0111,V4094,PT Prima Jaya,Konsumsi,Denpasar
+VN0112,V8230,PT Global Jaya,Logistik,Bandung
+VN0113,V0853,PT Solusi Abadi,Logistik,Denpasar
+VN0114,V2306,PT Nusantara Abadi,Konsumsi,Palembang
+VN0115,V2644,PT Techno Abadi,Keuangan,Surabaya
+VN0116,V8161,CV Mandiri Jaya,Jasa,Jakarta
+VN0117,V2296,PT Sentosa Abadi,Logistik,Bandung
+VN0118,V7044,PT Techno Maju Bersama,Logistik,Yogyakarta
+VN0119,V9906,CV Sentosa Maju Bersama,Jasa,Denpasar
+VN0120,V4423,CV Solusi Abadi,Keuangan,Jakarta
+VN0121,V8002,CV Sentosa Abadi,Jasa,Jakarta
+VN0122,V2133,PT Nusantara Maju Bersama,Konsumsi,Bandung
+VN0123,V7445,PT Techno Indo,Logistik,Jakarta
+VN0124,V2062,UD Sentosa Indo,IT,Makassar
+VN0125,V4012,PT Cakra Indo,Jasa,Surabaya
+VN0126,V5936,UD Prima Sejahtera,IT,Bandung
+VN0127,V4186,CV Mandiri Maju Bersama,Logistik,Bandung
+VN0128,V0981,UD Prima Jaya,Jasa,Jakarta
+VN0129,V9233,CV Mandiri Abadi,Konsumsi,Yogyakarta
+VN0130,V9080,CV Nusantara Jaya,IT,Palembang
+VN0131,V2246,CV Global Maju Bersama,Konsumsi,Jakarta
+VN0132,V1226,PT Sentosa Maju Bersama,Konsumsi,Denpasar
+VN0133,V1189,CV Solusi Jaya,Konsumsi,Jakarta
+VN0134,V8421,UD Prima Maju Bersama,Konsumsi,Medan
+VN0135,V3309,PT Prima Maju Bersama,Jasa,Surabaya
+VN0136,V3225,PT Mandiri Abadi,IT,Denpasar
+VN0137,V4569,PT Solusi Abadi,Konsumsi,Yogyakarta
+VN0138,V2338,UD Solusi Maju Bersama,IT,Medan
+VN0139,V9073,PT Nusantara Indo,Logistik,Denpasar
+VN0140,V9803,CV Nusantara Sejahtera,Logistik,Yogyakarta
+VN0141,V4664,CV Techno Jaya,Konsumsi,Jakarta
+VN0142,V7852,UD Cakra Indo,Keuangan,Palembang
+VN0143,V3315,UD Sentosa Abadi,IT,Denpasar
+VN0144,V3354,UD Solusi Sejahtera,Jasa,Yogyakarta
+VN0145,V1129,UD Techno Jaya,Logistik,Palembang
+VN0146,V6692,PT Sentosa Jaya,Keuangan,Jakarta
+VN0147,V2043,PT Global Maju Bersama,Logistik,Palembang
+VN0148,V9794,CV Cakra Abadi,Keuangan,Yogyakarta
+VN0149,V0447,UD Solusi Indo,Keuangan,Denpasar
+VN0150,V0749,UD Global Sejahtera,Konsumsi,Surabaya
+VN0151,V6248,UD Prima Sejahtera,IT,Palembang
+VN0152,V1777,UD Cakra Indo,IT,Bandung
+VN0153,V4973,CV Techno Maju Bersama,IT,Makassar
+VN0154,V5914,PT Mandiri Indo,Logistik,Denpasar
+VN0155,V0254,PT Nusantara Abadi,IT,Jakarta
+VN0156,V5398,UD Nusantara Indo,Jasa,Bandung
+VN0157,V7590,PT Sentosa Jaya,Logistik,Jakarta
+VN0158,V0888,PT Cakra Sejahtera,IT,Yogyakarta
+VN0159,V4140,PT Prima Sejahtera,Jasa,Yogyakarta
+VN0160,V8238,PT Nusantara Indo,Jasa,Bandung
+VN0161,V4883,UD Techno Maju Bersama,Keuangan,Makassar
+VN0162,V2926,UD Prima Maju Bersama,Keuangan,Yogyakarta
+VN0163,V2029,CV Cakra Sejahtera,Keuangan,Makassar
+VN0164,V5149,PT Mandiri Indo,Jasa,Makassar
+VN0165,V7539,PT Solusi Sejahtera,Keuangan,Yogyakarta
+VN0166,V6079,PT Solusi Indo,Keuangan,Palembang
+VN0167,V0397,CV Sentosa Maju Bersama,Logistik,Makassar
+VN0168,V5397,UD Solusi Maju Bersama,Jasa,Makassar
+VN0169,V6350,PT Solusi Indo,Konsumsi,Surabaya
+VN0170,V6928,CV Mandiri Maju Bersama,Konsumsi,Makassar
+VN0171,V7854,PT Solusi Maju Bersama,Jasa,Palembang
+VN0172,V0879,CV Nusantara Abadi,Konsumsi,Denpasar
+VN0173,V4558,PT Techno Indo,Jasa,Yogyakarta
+VN0174,V0980,UD Global Maju Bersama,Logistik,Makassar
+VN0175,V3931,PT Nusantara Indo,Konsumsi,Surabaya
+VN0176,V3306,CV Techno Maju Bersama,Keuangan,Yogyakarta
+VN0177,V5454,PT Cakra Sejahtera,Keuangan,Palembang
+VN0178,V9363,CV Nusantara Maju Bersama,Keuangan,Bandung
+VN0179,V1050,PT Global Maju Bersama,Konsumsi,Surabaya
+VN0180,V7652,UD Sentosa Abadi,Keuangan,Yogyakarta
+VN0181,V5842,UD Sentosa Abadi,IT,Makassar
+VN0182,V8608,UD Techno Abadi,IT,Yogyakarta
+VN0183,V6295,CV Sentosa Indo,Konsumsi,Makassar
+VN0184,V2905,UD Sentosa Jaya,Konsumsi,Surabaya
+VN0185,V1014,PT Cakra Indo,IT,Medan
+VN0186,V5891,PT Cakra Abadi,Konsumsi,Medan
+VN0187,V9509,PT Nusantara Sejahtera,Konsumsi,Makassar
+VN0188,V0140,CV Techno Sejahtera,Logistik,Denpasar
+VN0189,V3364,UD Prima Maju Bersama,Konsumsi,Surabaya
+VN0190,V1417,CV Sentosa Jaya,IT,Denpasar
+VN0191,V4876,CV Sentosa Jaya,Logistik,Bandung
+VN0192,V7670,UD Global Jaya,Jasa,Medan
+VN0193,V2886,PT Nusantara Maju Bersama,Konsumsi,Yogyakarta
+VN0194,V8777,PT Mandiri Sejahtera,Logistik,Yogyakarta
+VN0195,V3512,PT Techno Indo,Keuangan,Palembang
+VN0196,V1398,CV Techno Sejahtera,Jasa,Bandung
+VN0197,V6211,CV Techno Sejahtera,Keuangan,Bandung
+VN0198,V4850,UD Techno Sejahtera,IT,Jakarta
+VN0199,V1230,PT Nusantara Maju Bersama,Logistik,Palembang
+VN0200,V0128,PT Mandiri Maju Bersama,IT,Surabaya
+VN0201,V6434,PT Solusi Abadi,IT,Medan
+VN0202,V0182,CV Sentosa Maju Bersama,IT,Jakarta
+VN0203,V0737,PT Sentosa Sejahtera,Keuangan,Denpasar
+VN0204,V5081,CV Techno Maju Bersama,Konsumsi,Denpasar
+VN0205,V5108,CV Prima Maju Bersama,Jasa,Denpasar
+VN0206,V5618,CV Solusi Indo,Keuangan,Denpasar
+VN0207,V9707,PT Solusi Sejahtera,Keuangan,Makassar
+VN0208,V9992,PT Nusantara Indo,IT,Bandung
+VN0209,V9238,UD Solusi Jaya,Konsumsi,Denpasar
+VN0210,V8405,PT Cakra Jaya,Jasa,Medan
+VN0211,V9548,UD Techno Maju Bersama,Logistik,Denpasar
+VN0212,V8514,UD Techno Indo,IT,Jakarta
+VN0213,V8907,UD Nusantara Jaya,Logistik,Denpasar
+VN0214,V9138,UD Cakra Sejahtera,Keuangan,Jakarta
+VN0215,V2791,CV Cakra Maju Bersama,Konsumsi,Surabaya
+VN0216,V6161,CV Cakra Maju Bersama,Konsumsi,Palembang
+VN0217,V3884,CV Mandiri Sejahtera,Konsumsi,Jakarta
+VN0218,V6736,PT Global Maju Bersama,Konsumsi,Surabaya
+VN0219,V9829,PT Sentosa Indo,Logistik,Palembang
+VN0220,V7286,PT Techno Indo,Jasa,Surabaya
+VN0221,V9436,CV Techno Maju Bersama,Konsumsi,Jakarta
+VN0222,V5260,PT Cakra Indo,Konsumsi,Bandung
+VN0223,V9600,CV Nusantara Jaya,Konsumsi,Makassar
+VN0224,V9405,UD Mandiri Sejahtera,Konsumsi,Jakarta
+VN0225,V5013,PT Mandiri Maju Bersama,Logistik,Surabaya
+VN0226,V9155,CV Sentosa Jaya,Logistik,Surabaya
+VN0227,V7131,CV Nusantara Indo,Jasa,Surabaya
+VN0228,V9552,UD Cakra Abadi,Konsumsi,Medan
+VN0229,V8719,CV Prima Indo,Keuangan,Denpasar
+VN0230,V7840,PT Prima Abadi,Logistik,Bandung
+VN0231,V0545,PT Prima Maju Bersama,Logistik,Denpasar
+VN0232,V8899,PT Global Indo,Konsumsi,Jakarta
+VN0233,V6003,PT Solusi Indo,Jasa,Yogyakarta
+VN0234,V0010,UD Mandiri Indo,Keuangan,Jakarta
+VN0235,V9180,PT Prima Sejahtera,Konsumsi,Surabaya
+VN0236,V3527,CV Techno Sejahtera,IT,Medan
+VN0237,V6844,CV Nusantara Maju Bersama,Keuangan,Jakarta
+VN0238,V5445,PT Techno Indo,Jasa,Bandung
+VN0239,V6066,CV Cakra Abadi,Keuangan,Denpasar
+VN0240,V7968,CV Prima Indo,IT,Jakarta
+VN0241,V3599,UD Techno Sejahtera,Logistik,Bandung
+VN0242,V1320,UD Cakra Jaya,IT,Surabaya
+VN0243,V5433,PT Mandiri Sejahtera,Logistik,Jakarta
+VN0244,V8233,UD Global Jaya,Keuangan,Makassar
+VN0245,V8190,UD Prima Maju Bersama,IT,Jakarta
+VN0246,V5907,PT Nusantara Sejahtera,IT,Yogyakarta
+VN0247,V8009,PT Mandiri Indo,IT,Yogyakarta
+VN0248,V6905,UD Solusi Abadi,Jasa,Makassar
+VN0249,V5212,PT Mandiri Sejahtera,IT,Medan
+VN0250,V6483,PT Global Sejahtera,Konsumsi,Yogyakarta

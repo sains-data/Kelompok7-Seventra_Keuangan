@@ -1,0 +1,251 @@
+ID_Sumber,Kode_Sumber,Deskripsi_Sumber,Tipe_Pendanaan
+1,KDS0001,Pendanaan Khusus,Eksternal
+2,KDS0002,Dana Hibah,Eksternal
+3,KDS0003,Dana Sponsor,Eksternal
+4,KDS0004,Dana Sponsor,Internal
+5,KDS0005,Dana Hibah,Internal
+6,KDS0006,Pendanaan Khusus,Internal
+7,KDS0007,Dana Hibah,Eksternal
+8,KDS0008,Pendanaan Khusus,Internal
+9,KDS0009,Dana Sponsor,Internal
+10,KDS0010,Dana Donasi,Eksternal
+11,KDS0011,Dana Sponsor,Eksternal
+12,KDS0012,Dana Sponsor,Eksternal
+13,KDS0013,Biaya Operasional Rutin,Eksternal
+14,KDS0014,Biaya Operasional Rutin,Internal
+15,KDS0015,Dana Sponsor,Eksternal
+16,KDS0016,Biaya Operasional Rutin,Internal
+17,KDS0017,Biaya Operasional Rutin,Internal
+18,KDS0018,Biaya Operasional Rutin,Eksternal
+19,KDS0019,Dana Hibah,Internal
+20,KDS0020,Dana Donasi,Internal
+21,KDS0021,Dana Donasi,Eksternal
+22,KDS0022,Dana Hibah,Internal
+23,KDS0023,Biaya Operasional Rutin,Internal
+24,KDS0024,Dana Sponsor,Eksternal
+25,KDS0025,Dana Sponsor,Eksternal
+26,KDS0026,Dana Sponsor,Eksternal
+27,KDS0027,Biaya Operasional Rutin,Eksternal
+28,KDS0028,Dana Donasi,Internal
+29,KDS0029,Pendanaan Khusus,Eksternal
+30,KDS0030,Pendanaan Khusus,Internal
+31,KDS0031,Pendanaan Khusus,Eksternal
+32,KDS0032,Dana Sponsor,Internal
+33,KDS0033,Biaya Operasional Rutin,Eksternal
+34,KDS0034,Biaya Operasional Rutin,Eksternal
+35,KDS0035,Dana Donasi,Eksternal
+36,KDS0036,Dana Sponsor,Internal
+37,KDS0037,Dana Hibah,Internal
+38,KDS0038,Biaya Operasional Rutin,Internal
+39,KDS0039,Dana Hibah,Eksternal
+40,KDS0040,Pendanaan Khusus,Internal
+41,KDS0041,Dana Donasi,Eksternal
+42,KDS0042,Dana Donasi,Internal
+43,KDS0043,Biaya Operasional Rutin,Eksternal
+44,KDS0044,Dana Hibah,Internal
+45,KDS0045,Biaya Operasional Rutin,Eksternal
+46,KDS0046,Dana Donasi,Internal
+47,KDS0047,Dana Donasi,Eksternal
+48,KDS0048,Pendanaan Khusus,Internal
+49,KDS0049,Dana Sponsor,Internal
+50,KDS0050,Dana Hibah,Eksternal
+51,KDS0051,Pendanaan Khusus,Internal
+52,KDS0052,Dana Hibah,Internal
+53,KDS0053,Dana Sponsor,Internal
+54,KDS0054,Dana Hibah,Eksternal
+55,KDS0055,Dana Donasi,Eksternal
+56,KDS0056,Dana Sponsor,Internal
+57,KDS0057,Dana Donasi,Eksternal
+58,KDS0058,Dana Sponsor,Eksternal
+59,KDS0059,Biaya Operasional Rutin,Internal
+60,KDS0060,Dana Hibah,Internal
+61,KDS0061,Pendanaan Khusus,Eksternal
+62,KDS0062,Dana Hibah,Internal
+63,KDS0063,Pendanaan Khusus,Internal
+64,KDS0064,Dana Donasi,Eksternal
+65,KDS0065,Pendanaan Khusus,Eksternal
+66,KDS0066,Dana Hibah,Eksternal
+67,KDS0067,Dana Sponsor,Internal
+68,KDS0068,Dana Sponsor,Internal
+69,KDS0069,Pendanaan Khusus,Eksternal
+70,KDS0070,Dana Donasi,Eksternal
+71,KDS0071,Dana Sponsor,Internal
+72,KDS0072,Dana Hibah,Eksternal
+73,KDS0073,Biaya Operasional Rutin,Eksternal
+74,KDS0074,Dana Donasi,Eksternal
+75,KDS0075,Pendanaan Khusus,Internal
+76,KDS0076,Pendanaan Khusus,Internal
+77,KDS0077,Pendanaan Khusus,Internal
+78,KDS0078,Biaya Operasional Rutin,Internal
+79,KDS0079,Biaya Operasional Rutin,Eksternal
+80,KDS0080,Dana Hibah,Eksternal
+81,KDS0081,Dana Donasi,Internal
+82,KDS0082,Biaya Operasional Rutin,Eksternal
+83,KDS0083,Dana Sponsor,Internal
+84,KDS0084,Pendanaan Khusus,Internal
+85,KDS0085,Dana Sponsor,Eksternal
+86,KDS0086,Biaya Operasional Rutin,Eksternal
+87,KDS0087,Dana Donasi,Internal
+88,KDS0088,Biaya Operasional Rutin,Internal
+89,KDS0089,Dana Sponsor,Eksternal
+90,KDS0090,Dana Sponsor,Eksternal
+91,KDS0091,Biaya Operasional Rutin,Eksternal
+92,KDS0092,Biaya Operasional Rutin,Internal
+93,KDS0093,Dana Sponsor,Internal
+94,KDS0094,Dana Sponsor,Internal
+95,KDS0095,Biaya Operasional Rutin,Internal
+96,KDS0096,Dana Sponsor,Eksternal
+97,KDS0097,Biaya Operasional Rutin,Eksternal
+98,KDS0098,Dana Sponsor,Eksternal
+99,KDS0099,Dana Donasi,Eksternal
+100,KDS0100,Dana Donasi,Internal
+101,KDS0101,Pendanaan Khusus,Eksternal
+102,KDS0102,Dana Hibah,Eksternal
+103,KDS0103,Biaya Operasional Rutin,Internal
+104,KDS0104,Dana Donasi,Internal
+105,KDS0105,Dana Donasi,Eksternal
+106,KDS0106,Dana Hibah,Eksternal
+107,KDS0107,Biaya Operasional Rutin,Internal
+108,KDS0108,Dana Hibah,Eksternal
+109,KDS0109,Dana Hibah,Eksternal
+110,KDS0110,Biaya Operasional Rutin,Eksternal
+111,KDS0111,Dana Donasi,Internal
+112,KDS0112,Pendanaan Khusus,Eksternal
+113,KDS0113,Pendanaan Khusus,Eksternal
+114,KDS0114,Biaya Operasional Rutin,Eksternal
+115,KDS0115,Biaya Operasional Rutin,Eksternal
+116,KDS0116,Dana Hibah,Eksternal
+117,KDS0117,Dana Donasi,Internal
+118,KDS0118,Pendanaan Khusus,Eksternal
+119,KDS0119,Dana Hibah,Eksternal
+120,KDS0120,Biaya Operasional Rutin,Eksternal
+121,KDS0121,Dana Sponsor,Internal
+122,KDS0122,Dana Hibah,Eksternal
+123,KDS0123,Biaya Operasional Rutin,Eksternal
+124,KDS0124,Dana Hibah,Internal
+125,KDS0125,Dana Hibah,Internal
+126,KDS0126,Dana Sponsor,Internal
+127,KDS0127,Biaya Operasional Rutin,Internal
+128,KDS0128,Dana Sponsor,Eksternal
+129,KDS0129,Dana Sponsor,Internal
+130,KDS0130,Dana Donasi,Eksternal
+131,KDS0131,Dana Sponsor,Internal
+132,KDS0132,Biaya Operasional Rutin,Eksternal
+133,KDS0133,Pendanaan Khusus,Eksternal
+134,KDS0134,Pendanaan Khusus,Internal
+135,KDS0135,Dana Donasi,Internal
+136,KDS0136,Dana Sponsor,Internal
+137,KDS0137,Biaya Operasional Rutin,Internal
+138,KDS0138,Dana Sponsor,Internal
+139,KDS0139,Dana Sponsor,Internal
+140,KDS0140,Dana Donasi,Internal
+141,KDS0141,Biaya Operasional Rutin,Internal
+142,KDS0142,Biaya Operasional Rutin,Eksternal
+143,KDS0143,Biaya Operasional Rutin,Eksternal
+144,KDS0144,Biaya Operasional Rutin,Internal
+145,KDS0145,Dana Sponsor,Eksternal
+146,KDS0146,Pendanaan Khusus,Eksternal
+147,KDS0147,Biaya Operasional Rutin,Internal
+148,KDS0148,Biaya Operasional Rutin,Internal
+149,KDS0149,Pendanaan Khusus,Eksternal
+150,KDS0150,Dana Donasi,Eksternal
+151,KDS0151,Dana Donasi,Internal
+152,KDS0152,Dana Sponsor,Eksternal
+153,KDS0153,Dana Sponsor,Eksternal
+154,KDS0154,Dana Sponsor,Internal
+155,KDS0155,Dana Hibah,Eksternal
+156,KDS0156,Dana Donasi,Eksternal
+157,KDS0157,Dana Sponsor,Internal
+158,KDS0158,Dana Sponsor,Internal
+159,KDS0159,Dana Donasi,Internal
+160,KDS0160,Pendanaan Khusus,Internal
+161,KDS0161,Pendanaan Khusus,Eksternal
+162,KDS0162,Dana Sponsor,Eksternal
+163,KDS0163,Biaya Operasional Rutin,Eksternal
+164,KDS0164,Pendanaan Khusus,Eksternal
+165,KDS0165,Pendanaan Khusus,Internal
+166,KDS0166,Dana Hibah,Eksternal
+167,KDS0167,Pendanaan Khusus,Eksternal
+168,KDS0168,Biaya Operasional Rutin,Internal
+169,KDS0169,Dana Sponsor,Internal
+170,KDS0170,Dana Donasi,Internal
+171,KDS0171,Dana Sponsor,Eksternal
+172,KDS0172,Pendanaan Khusus,Internal
+173,KDS0173,Dana Hibah,Internal
+174,KDS0174,Dana Hibah,Internal
+175,KDS0175,Biaya Operasional Rutin,Eksternal
+176,KDS0176,Biaya Operasional Rutin,Internal
+177,KDS0177,Dana Sponsor,Eksternal
+178,KDS0178,Dana Donasi,Eksternal
+179,KDS0179,Dana Sponsor,Eksternal
+180,KDS0180,Biaya Operasional Rutin,Eksternal
+181,KDS0181,Biaya Operasional Rutin,Internal
+182,KDS0182,Dana Hibah,Internal
+183,KDS0183,Biaya Operasional Rutin,Internal
+184,KDS0184,Biaya Operasional Rutin,Eksternal
+185,KDS0185,Dana Hibah,Internal
+186,KDS0186,Dana Sponsor,Internal
+187,KDS0187,Dana Sponsor,Eksternal
+188,KDS0188,Biaya Operasional Rutin,Internal
+189,KDS0189,Pendanaan Khusus,Eksternal
+190,KDS0190,Dana Hibah,Eksternal
+191,KDS0191,Biaya Operasional Rutin,Internal
+192,KDS0192,Dana Hibah,Internal
+193,KDS0193,Dana Donasi,Eksternal
+194,KDS0194,Dana Donasi,Internal
+195,KDS0195,Biaya Operasional Rutin,Internal
+196,KDS0196,Dana Donasi,Eksternal
+197,KDS0197,Pendanaan Khusus,Eksternal
+198,KDS0198,Biaya Operasional Rutin,Eksternal
+199,KDS0199,Dana Sponsor,Internal
+200,KDS0200,Dana Donasi,Eksternal
+201,KDS0201,Biaya Operasional Rutin,Eksternal
+202,KDS0202,Dana Donasi,Eksternal
+203,KDS0203,Dana Hibah,Eksternal
+204,KDS0204,Dana Hibah,Eksternal
+205,KDS0205,Dana Donasi,Internal
+206,KDS0206,Dana Sponsor,Eksternal
+207,KDS0207,Pendanaan Khusus,Internal
+208,KDS0208,Dana Sponsor,Internal
+209,KDS0209,Dana Donasi,Eksternal
+210,KDS0210,Dana Sponsor,Eksternal
+211,KDS0211,Biaya Operasional Rutin,Internal
+212,KDS0212,Pendanaan Khusus,Eksternal
+213,KDS0213,Dana Hibah,Internal
+214,KDS0214,Pendanaan Khusus,Eksternal
+215,KDS0215,Dana Donasi,Internal
+216,KDS0216,Dana Sponsor,Eksternal
+217,KDS0217,Biaya Operasional Rutin,Internal
+218,KDS0218,Pendanaan Khusus,Internal
+219,KDS0219,Biaya Operasional Rutin,Eksternal
+220,KDS0220,Dana Hibah,Eksternal
+221,KDS0221,Biaya Operasional Rutin,Internal
+222,KDS0222,Pendanaan Khusus,Internal
+223,KDS0223,Dana Sponsor,Eksternal
+224,KDS0224,Dana Hibah,Internal
+225,KDS0225,Pendanaan Khusus,Internal
+226,KDS0226,Dana Donasi,Internal
+227,KDS0227,Biaya Operasional Rutin,Internal
+228,KDS0228,Dana Hibah,Eksternal
+229,KDS0229,Dana Donasi,Internal
+230,KDS0230,Biaya Operasional Rutin,Internal
+231,KDS0231,Dana Donasi,Eksternal
+232,KDS0232,Biaya Operasional Rutin,Internal
+233,KDS0233,Dana Donasi,Eksternal
+234,KDS0234,Dana Sponsor,Eksternal
+235,KDS0235,Pendanaan Khusus,Eksternal
+236,KDS0236,Dana Sponsor,Internal
+237,KDS0237,Pendanaan Khusus,Eksternal
+238,KDS0238,Dana Donasi,Internal
+239,KDS0239,Pendanaan Khusus,Eksternal
+240,KDS0240,Dana Hibah,Internal
+241,KDS0241,Pendanaan Khusus,Eksternal
+242,KDS0242,Biaya Operasional Rutin,Eksternal
+243,KDS0243,Biaya Operasional Rutin,Internal
+244,KDS0244,Pendanaan Khusus,Internal
+245,KDS0245,Dana Sponsor,Eksternal
+246,KDS0246,Dana Donasi,Internal
+247,KDS0247,Dana Donasi,Internal
+248,KDS0248,Pendanaan Khusus,Eksternal
+249,KDS0249,Pendanaan Khusus,Internal
+250,KDS0250,Dana Donasi,Eksternal
