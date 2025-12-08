@@ -17,64 +17,78 @@ Proyek ini adalah implementasi *Data Mart Dimensional* untuk Unit Keuangan Itera
 
 ---
 
-## 🏢 Domain Bisnis (Business Domain)
+## 🏢 Business Domain: Unit Keuangan
 
-Unit Keuangan Itera bertanggung jawab atas pengelolaan seluruh siklus keuangan institusi, mulai dari perencanaan *anggaran, pencatatan **pengeluaran, hingga pelaporan **realisasi dana* dan akuntabilitas keuangan. Domain ini sangat membutuhkan data historis dan konsisten untuk memantau *kepatuhan anggaran* dan *efisiensi operasional* unit.
+Fokus Data Mart ini adalah pada fungsi manajerial dan operasional keuangan Institusi:
 
----
-
-## 🏗 Arsitektur (Architecture)
-
-* *Pendekatan (*Approach):** *Kimball Dimensional Modeling* (Menggunakan Star Schema).
-* *Platform Database:* *SQL Server* di atas *Azure Virtual Machine* (VM).
-* *Proses ETL:* *SQL Server Integration Services (SSIS)*.
+1.  **Pengelolaan Anggaran:** Analisis kepatuhan, pemantauan Varian Anggaran vs Realisasi, dan pelaporan sisa anggaran.
+2.  **Manajemen Arus Kas:** Pemantauan tren Pendapatan (Debit) dan Pengeluaran (Kredit) bulanan atau kuartalan.
+3.  **Analisis Pengeluaran:** Melacak pengeluaran berdasarkan Unit Organisasi, Pos Akun (COA), dan Vendor/Pemasok.
 
 ---
 
-## 💡 Fitur Utama (Key Features)
+## 🏛️ Architecture & Key Features
 
-### Tabel Dimensi (Konteks)
+| Komponen | Detail |
+| :--- | :--- |
+| **Approach** | **Kimball** (Dimensional Modeling - Star Schema) |
+| **Database** | SQL Server on Azure VM |
+| **ETL Tool** | SQL Server Integration Services (SSIS) |
+| **Visualization** | Power BI Desktop |
 
-* *DIM\_WAKTU*: Konteks kalender (Tahun, Kuartal, Bulan).
-* *DIM\_KODE\_AKUN*: Klasifikasi dan detail akun anggaran.
-* *DIM\_PEGAWAI*: Atribut SDM (NIP, Nama, Jabatan).
-* *DIM\_VENDOR*: Informasi pihak ketiga/penyedia.
-* *DIM\_UNIT\_KERJA*: Hierarki Unit/Prodi untuk pertanggungjawaban.
-* *DIM\_SUMBER\_DANA*: Asal dana (DIPA, PNBP, Hibah).
-* *DIM\_JENIS\_TRANSAKSI*: Klasifikasi detail transaksi (Belanja Modal, Penerimaan SPP, dll.).
+### Data Model (Tabel dan Metrik Utama)
 
-### Tabel Fakta (Metrik)
+**Fact Tables:**
+* `Fact_Transaksi`: Berisi detail setiap entri jurnal (Debit/Kredit) untuk analisis arus kas.
+* `Fact_Anggaran`: Berisi target anggaran vs. nilai realisasi untuk analisis varian kinerja.
 
-* *FACT\_TRANSAKSI\_PENGELUARAN*: Merekam nilai setiap pengeluaran.
-* *FACT\_TRANSAKSI\_PENERIMAAN*: Merekam nilai setiap penerimaan.
-* *FACT\_REALISASI\_ANGGARAN: *Snapshot status anggaran (Anggaran Awal, Realisasi Kumulatif).
-* *FACT\_GAJI\_PEGAWAI*: Detail biaya gaji dan tunjangan.
-* *FACT\_ARUS\_KAS: Pergerakan kas (*Debit, Kredit, Saldo Akhir).
+**Dimension Tables:**
+* `Dim_Waktu`: Kalender waktu (Tahun Fiskal, Kuartal, Bulan, Tanggal).
+* `Dim_Unit_Org`: Informasi Unit Pelaksana Anggaran (Fakultas, Biro, UPA).
+* `Dim_Pos_Akun`: *Chart of Accounts* (COA) untuk klasifikasi keuangan.
+* `Dim_Vendor`: Data pemasok/pihak ketiga.
+* `Dim_Sumber_Dana`: Klasifikasi sumber dana (Rutin, Hibah, Proyek, dsb).
 
-### Indikator Kinerja Utama (KPI)
+### Key Performance Indicators (KPIs)
 
-| Kategori | KPI (Indikator Kinerja) | Target | Freq. Pengukuran |
-| :--- | :--- | :---: | :---: |
-| Efisiensi Anggaran | *Tingkat Realisasi Anggaran* | $> 95\%$ | Triwulan & Tahunan |
-| Kualitas & Akurasi Data | *Persentase *Error dalam Data Transaksi** | $< 0.5\%$ | Bulanan |
-| Kualitas & Akurasi Data | *Ketetapan Waktu Pelaporan Keuangan* | $100\%$ | Bulanan & Tahunan |
-| Kecepatan Layanan | *Waktu Rata-rata Pemrosesan Tagihan* | $< 5$ hari kerja | Bulanan |
-| Kecepatan Layanan | *Frekuensi Ketidaksesuaian Catatan* | $< 2$ kasus/periode | Bulanan |
-| Kecepatan Layanan | *Waktu Rata-rata Pemrosesan Pencairan Dana* | $< 3$ hari kerja | Harian/Mingguan |
-| Kepatuhan | *Tingkat Kesesuaian Terhadap Standar Audit* | $> 90\%$ | Tiap Semester |
-| Kepuasan Pengguna | *Skor Survei Kepuasan Unit Kerja* | $> 4.0 / 5.0$ | Tiap Semester |
+* **Persentase Realisasi Anggaran** per Unit dan per Pos Akun.
+* **Varian Anggaran** (Selisih Anggaran vs Realisasi).
+* **Tren Arus Kas** (Debit dan Kredit) bulanan/kuartalan.
+* **Total Pengeluaran** berdasarkan Kategori Vendor.
 
 ---
 
-## 📚 Dokumentasi (Documentation)
+## 📂 Repository Structure
+docs/
+  01-requirements/
+  02-design/
+  03-implementation/
+presentations/
+sql/
+  01_Create_Database.sql
+  02_Create_Dimension.sql
+  03_Create_Facts.sql
+  04_Indexing.sql
+  05_Partition.sql
+  06_Staging.sql
+  07_ETL_Load_Final.sql
+  08_Data_Quality_Checks.sql
+  09_Test_Queries.sql
+  10_Create_View.sql
+  11_Security.sql
+etl/
+  packages/
+  dashboards/
+  PowerBI files
+tests/
+  test scripts
 
-* [*Kebutuhan Bisnis* (Business Requirements)](docs/01-requirements/)
-* [*Dokumen Desain* (Design Documents)](docs/02-design/)
-Link Gdocs : https://docs.google.com/document/d/1kc9Az6AgZd3U4pCPtT8yO5pkTkEcp1vaQaw4dYswCLk/edit?usp=sharing
+
 ---
 
-## 🗓 Linimasa (Timeline)
+## ⏳ Project Timeline (Data Mart Keuangan)
 
-* *Misi 1:* 17 November 2025 
-* *Misi 2:* 24 November 2025
-* *Misi 3:* 1 Desember 2025
+* **Misi 1** (Analisis Kebutuhan & Desain Konseptual): Selesai **[17-11-2025]**
+* **Misi 2** (Desain Logis & Skema Database): Selesai **[24-11-2025]**
+* **Misi 3** (Implementasi ETL, Pengujian & Visualisasi): Selesai **[01-12-2025]**
+
